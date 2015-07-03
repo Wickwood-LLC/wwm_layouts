@@ -1,0 +1,6 @@
+name = WWM Layouts
+description = Custom responsive adaptive layouts made by Wickwood Marketing.
+package = WWM
+core = 7.x
+version = 7.x-1.0
+dependencies[] = panels
