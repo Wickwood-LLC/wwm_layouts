@@ -582,46 +582,91 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wwm_three_col_stacked_and_packed_1\/wwm-three-col-stacked-and-packed-1.tpl.php": {
+	"\/wwm_stacked_and_packed_1\/wwm-stacked-and-packed-1.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wwm_three_col_stacked_and_packed_1\/wwm-three-col-stacked-and-packed-1.tpl.php",
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_1\/wwm-stacked-and-packed-1.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.css": {
+	"\/wwm_stacked_and_packed_1\/wwm_stacked_and_packed_1.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.css",
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_1\/wwm_stacked_and_packed_1.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.png": {
+	"\/wwm_stacked_and_packed_1\/wwm_stacked_and_packed_1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2416,
-		"inputAbbreviatedPath": "\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.png",
-		"outputAbbreviatedPath": "\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.png",
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_1\/wwm_stacked_and_packed_1.png",
+		"outputAbbreviatedPath": "\/wwm_stacked_and_packed_1\/wwm_stacked_and_packed_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.scss": {
+	"\/wwm_stacked_and_packed_1\/wwm_stacked_and_packed_1.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.scss",
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_1\/wwm_stacked_and_packed_1.scss",
 		"outputAbbreviatedPath": "\/wwm_three_col_stacked_and_packed_1\/wwm_three_col_stacked_and_packed_1.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wwm_stacked_and_packed_2\/wwm-stacked-and-packed-2.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_2\/wwm-stacked-and-packed-2.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wwm_stacked_and_packed_2\/wwm_stacked_and_packed_2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_2\/wwm_stacked_and_packed_2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wwm_stacked_and_packed_2\/wwm_stacked_and_packed_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2416,
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_2\/wwm_stacked_and_packed_2.png",
+		"outputAbbreviatedPath": "\/wwm_stacked_and_packed_2\/wwm_stacked_and_packed_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wwm_stacked_and_packed_2\/wwm_stacked_and_packed_2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wwm_stacked_and_packed_2\/wwm_stacked_and_packed_2.scss",
+		"outputAbbreviatedPath": "\/css\/wwm_stacked_and_packed_2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
