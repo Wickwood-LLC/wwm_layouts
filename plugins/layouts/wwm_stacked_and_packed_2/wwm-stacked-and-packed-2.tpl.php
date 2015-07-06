@@ -18,7 +18,7 @@
  */
 ?>
 <div class="panel-display panel-wwm-3col-stacked
-<?php if ($renderer->prepared['regions']['left_sidebar_1']['pids'] && $renderer->prepared['regions']['left_sidebar_2']['pids'] && $renderer->prepared['regions']['right_sidebar_1']['pids'] && $renderer->prepared['regions']['right_sidebar_2']['pids']) { 
+<?php if (($renderer->prepared['regions']['left_sidebar_1']['pids'] || $renderer->prepared['regions']['left_sidebar_2']['pids']) && ($renderer->prepared['regions']['right_sidebar_1']['pids'] || $renderer->prepared['regions']['right_sidebar_2']['pids'])) { 
     print "has-two-sidebars";
   } elseif ($renderer->prepared['regions']['left_sidebar_1']['pids'] || $renderer->prepared['regions']['left_sidebar_2']['pids']) {
     print "has-one-sidebar left-sidebar";
