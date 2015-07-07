@@ -39,6 +39,9 @@
 		.empty {
 			display: block;
 		}
+		.no-sides {
+			flex: 1 1 0;
+		}
 	}
 }
 

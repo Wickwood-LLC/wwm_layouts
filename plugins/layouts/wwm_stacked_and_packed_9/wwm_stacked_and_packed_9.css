@@ -67,6 +67,14 @@
   .panels-ipe-editing .sub-footer-1 .empty,
   .panels-ipe-editing .sub-footer-2 .empty {
     display: block; }
+  .panels-ipe-editing .sub-header-1 .no-sides,
+  .panels-ipe-editing .sub-header-2 .no-sides,
+  .panels-ipe-editing .sub-footer-1 .no-sides,
+  .panels-ipe-editing .sub-footer-2 .no-sides {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0;
+        -ms-flex: 1 1 0;
+            flex: 1 1 0; }
 
 /* These are the rules that set the layout in demo mode  */
 .panel-wwm-3col-stacked {
