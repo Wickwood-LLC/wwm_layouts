@@ -22,11 +22,11 @@
   <?php print $content['subheader_2']; ?>
 </div>
 <div class="panel-display panel-wwm-3col-stacked
-<?php if (($renderer->prepared['regions']['left_sidebar_1']['pids'] || $renderer->prepared['regions']['left_sidebar_2']['pids']) && ($renderer->prepared['regions']['right_sidebar_1']['pids'] || $renderer->prepared['regions']['right_sidebar_2']['pids'])) { 
+<?php if (($renderer->prepared['regions']['left_sidebar_top']['pids'] || $renderer->prepared['regions']['left_sidebar_bottom']['pids']) && ($renderer->prepared['regions']['right_sidebar_top']['pids'] || $renderer->prepared['regions']['right_sidebar_bottom']['pids'])) { 
     print "has-two-sidebars";
-  } elseif ($renderer->prepared['regions']['left_sidebar_1']['pids'] || $renderer->prepared['regions']['left_sidebar_2']['pids']) {
+  } elseif ($renderer->prepared['regions']['left_sidebar_top']['pids'] || $renderer->prepared['regions']['left_sidebar_bottom']['pids']) {
     print "has-one-sidebar left-sidebar";
-  } elseif ($renderer->prepared['regions']['right_sidebar_1']['pids'] || $renderer->prepared['regions']['right_sidebar_2']['pids']) {
+  } elseif ($renderer->prepared['regions']['right_sidebar_top']['pids'] || $renderer->prepared['regions']['right_sidebar_bottom']['pids']) {
     print "has-one-sidebar right-sidebar";
   } else {
     print "no-sidebar";
@@ -57,12 +57,12 @@
     <?php endif; ?>
   </div>
   <div class="panel-panel panel-col-sidebar panel-col-left">
-    <?php print $content['left_sidebar_1']; ?>
-    <?php print $content['left_sidebar_2']; ?>
+    <?php print $content['left_sidebar_top']; ?>
+    <?php print $content['left_sidebar_bottom']; ?>
   </div>
   <div class="panel-panel panel-col-sidebar panel-col-right">
-    <?php print $content['right_sidebar_1']; ?>
-    <?php print $content['right_sidebar_2']; ?>
+    <?php print $content['right_sidebar_top']; ?>
+    <?php print $content['right_sidebar_bottom']; ?>
   </div>
 </div>
 <div class="sub-footer">

@@ -15,9 +15,9 @@ $plugin = array(
   	'content_bottom' => t('Content Bottom'),
   	'content_top' => t('Content Top'),
   	'help' => t('Help'),
-  	'left_sidebar_1' => t('Left Sidebar 1'),
-    'left_sidebar_2' => t('Left Sidebar 2'),
-  	'right_sidebar_1' => t('Right Sidebar 1'),
-    'right_sidebar_2' => t('Right Sidebar 2'),
+  	'left_sidebar_top' => t('Left Sidebar Top'),
+    'left_sidebar_bottom' => t('Left Sidebar Bottom'),
+  	'right_sidebar_top' => t('Right Sidebar Top'),
+    'right_sidebar_bottom' => t('Right Sidebar Bottom'),
   ),
 );
