@@ -154,11 +154,18 @@
 .sub-footer-2 {
 	width: 100%;
 	display: flex;
+	flex-flow: row wrap;
 	&>* {
-		flex: 1 1 0;
+		flex: 1 1 100%;
 		padding: 1%;
+		@include breakpoint(768px) {
+			flex: 1 1 0;
+		}
 	}
 	.empty {
 		display: none;
+	}
+	.no-sides {
+		flex: 2 1 0;
 	}
 }
