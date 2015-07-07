@@ -21,7 +21,7 @@
   <div class="sub-header-1-left <?php if (!($renderer->prepared['regions']['subheader_1_left']['pids'])) {print "empty";}?>">
     <?php print $content['subheader_1_left']; ?>
   </div>
-  <div class="sub-header-1-mid <?php if (!($renderer->prepared['regions']['subheader_1_mid']['pids'])) {print "empty";}?>">
+  <div class="sub-header-1-mid <?php if (!($renderer->prepared['regions']['subheader_1_mid']['pids'])) {print "empty ";} if (!($renderer->prepared['regions']['subheader_1_left']['pids']) || !($renderer->prepared['regions']['subheader_1_right']['pids'])) {print "no-sides";} ?>">
     <?php print $content['subheader_1_mid']; ?>
   </div>
   <div class="sub-header-1-right <?php if (!($renderer->prepared['regions']['subheader_1_right']['pids'])) {print "empty";}?>">
@@ -32,7 +32,7 @@
   <div class="sub-header-2-left <?php if (!($renderer->prepared['regions']['subheader_2_left']['pids'])) {print "empty";}?>">
     <?php print $content['subheader_2_left']; ?>
   </div>
-  <div class="sub-header-2-mid <?php if (!($renderer->prepared['regions']['subheader_2_mid']['pids'])) {print "empty";}?>">
+  <div class="sub-header-2-mid <?php if (!($renderer->prepared['regions']['subheader_2_mid']['pids'])) {print "empty ";} if (!($renderer->prepared['regions']['subheader_2_left']['pids']) || !($renderer->prepared['regions']['subheader_2_right']['pids'])) {print "no-sides";} ?>">
     <?php print $content['subheader_2_mid']; ?>
   </div>
   <div class="sub-header-2-right <?php if (!($renderer->prepared['regions']['subheader_2_right']['pids'])) {print "empty";}?>">
@@ -87,7 +87,7 @@
   <div class="sub-footer-1-right <?php if (!($renderer->prepared['regions']['subfooter_1_left']['pids'])) {print "empty";}?>">
     <?php print $content['subfooter_1_left']; ?>
   </div>
-  <div class="sub-footer-1-right <?php if (!($renderer->prepared['regions']['subfooter_1_mid']['pids'])) {print "empty";}?>">
+  <div class="sub-footer-1-mid <?php if (!($renderer->prepared['regions']['subfooter_1_mid']['pids'])) {print "empty ";} if (!($renderer->prepared['regions']['subfooter_1_left']['pids']) || !($renderer->prepared['regions']['subfooter_1_right']['pids'])) {print "no-sides";} ?>">
     <?php print $content['subfooter_1_mid']; ?>
   </div>
   <div class="sub-footer-1-right <?php if (!($renderer->prepared['regions']['subfooter_1_right']['pids'])) {print "empty";}?>">
@@ -98,7 +98,7 @@
   <div class="sub-footer-2-right <?php if (!($renderer->prepared['regions']['subfooter_2_left']['pids'])) {print "empty";}?>">
     <?php print $content['subfooter_2_left']; ?>
   </div>
-  <div class="sub-footer-2-right <?php if (!($renderer->prepared['regions']['subfooter_2_mid']['pids'])) {print "empty";}?>">
+  <div class="sub-footer-2-mid <?php if (!($renderer->prepared['regions']['subfooter_2_mid']['pids'])) {print "empty ";} if (!($renderer->prepared['regions']['subfooter_2_left']['pids']) || !($renderer->prepared['regions']['subfooter_2_right']['pids'])) {print "no-sides";} ?>">
     <?php print $content['subfooter_2_mid']; ?>
   </div>
   <div class="sub-footer-2-right <?php if (!($renderer->prepared['regions']['subfooter_2_right']['pids'])) {print "empty";}?>">
