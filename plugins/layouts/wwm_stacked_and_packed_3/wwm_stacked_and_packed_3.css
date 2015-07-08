@@ -84,9 +84,9 @@
   @media (min-width: 768px) {
     .panel-wwm-3col-stacked .panel-col-mid {
       -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
+      -webkit-flex: 0 0 98%;
+          -ms-flex: 0 0 98%;
+              flex: 0 0 98%;
       margin: 0 1%; }
     .panel-wwm-3col-stacked.has-one-sidebar .panel-col-sidebar {
       -webkit-box-flex: 0;
@@ -105,9 +105,9 @@
   @media (min-width: 1024px) {
     .panel-wwm-3col-stacked.no-sidebar .panel-col-mid {
       -webkit-box-flex: 0;
-      -webkit-flex: 0 0 100%;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%; }
+      -webkit-flex: 0 0 98%;
+          -ms-flex: 0 0 98%;
+              flex: 0 0 98%; }
     .panel-wwm-3col-stacked.no-sidebar .panel-col-sidebar {
       display: none; }
     .panel-wwm-3col-stacked.left-sidebar .panel-col-mid {

@@ -44,7 +44,7 @@
 
 	@include breakpoint(768px) {
 	 	.panel-col-mid {
-		 	flex: 0 0 100%;
+		 	flex: 0 0 98%;
 		 	margin: 0 1%;
 	 	}
 	 	&.has-one-sidebar {
@@ -68,7 +68,7 @@
 	@include breakpoint(1024px) {
 		&.no-sidebar {
 			.panel-col-mid {
-				flex: 0 0 100%;
+				flex: 0 0 98%;
 			}
 			.panel-col-sidebar {
 				display: none;
