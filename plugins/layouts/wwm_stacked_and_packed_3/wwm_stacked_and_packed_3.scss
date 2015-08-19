@@ -3,35 +3,38 @@
  	*/
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
 
-/* These are the rules that maintain the original layout in customize mode */
-.panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar,
-.panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar,
-.panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars,
-.panels-ipe-editing .panel-wwm-3col-stacked.no-mid {
-	clear: both;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
+/* These are the rules that maintain the original layout in customize mode and in page manager*/
+#page-manager-edit,
+.panels-ipe-editing {
+	.panel-wwm-3col-stacked.no-sidebar,
+	.panel-wwm-3col-stacked.has-one-sidebar,
+	.panel-wwm-3col-stacked.has-two-sidebars,
+	.panel-wwm-3col-stacked.no-mid {
+		clear: both;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
 
-	.panel-col-mid {
-		flex: 0 1 48%;
-		margin: 0 1%;
+		.panel-col-mid {
+			flex: 0 1 48%;
+			margin: 0 1%;
+		}
+		.panel-col-left,
+		.panel-col-right {
+			flex: 0 2 25%;
+			margin: 0;
+		}
+		.panel-col-left {
+			order: -1;
+		}
+		.panel-panel {
+			display: block;
+		}
 	}
-	.panel-col-left,
-	.panel-col-right {
-		flex: 0 2 25%;
-		margin: 0;
+	.sub-header,
+	.sub-footer {
+		width: 100%;
 	}
-	.panel-col-left {
-		order: -1;
-	}
-	.panel-panel {
-		display: block;
-	}
-}
-.sub-header,
-.sub-footer {
-	width: 100%;
 }
 
 /* These are the rules that set the layout in demo mode  */

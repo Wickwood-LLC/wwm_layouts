@@ -3,7 +3,8 @@
  	*/
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
 
-/* These are the rules that maintain the original layout in customize mode */
+/* These are the rules that maintain the original layout in customize mode and in page manager*/
+#page-manager-edit,
 .panels-ipe-editing {
 	.panel-wwm-3col-stacked.no-sidebar,
 	.panel-wwm-3col-stacked.has-one-sidebar,

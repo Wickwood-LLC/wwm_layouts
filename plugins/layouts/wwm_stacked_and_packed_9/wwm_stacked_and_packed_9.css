@@ -1,7 +1,11 @@
 /* This SCSS file is managed and compiled with Codekit, 
  	so we need to specify where the components are, if there are any. 
  	*/
-/* These are the rules that maintain the original layout in customize mode */
+/* These are the rules that maintain the original layout in customize mode and in page manager*/
+#page-manager-edit .panel-wwm-3col-stacked.no-sidebar,
+#page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar,
+#page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars,
+#page-manager-edit .panel-wwm-3col-stacked.no-mid,
 .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar,
 .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar,
 .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars,
@@ -18,6 +22,10 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-mid,
+  #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid,
+  #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid,
+  #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-col-mid,
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-mid,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid,
@@ -27,6 +35,14 @@
         -ms-flex: 0 1 48%;
             flex: 0 1 48%;
     margin: 0 1%; }
+  #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-left,
+  #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-right,
+  #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-left,
+  #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-right,
+  #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
+  #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right,
+  #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-col-left,
+  #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-col-right,
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-left,
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-right,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-left,
@@ -40,6 +56,10 @@
         -ms-flex: 0 2 25%;
             flex: 0 2 25%;
     margin: 0; }
+  #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-left,
+  #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-left,
+  #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
+  #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-col-left,
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-left,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-left,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
@@ -48,11 +68,19 @@
     -webkit-order: -1;
         -ms-flex-order: -1;
             order: -1; }
+  #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-panel,
+  #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-panel,
+  #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-panel,
+  #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-panel,
   .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-panel,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-panel,
   .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-panel,
   .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-panel {
     display: block; }
+#page-manager-edit .sub-header-1,
+#page-manager-edit .sub-header-2,
+#page-manager-edit .sub-footer-1,
+#page-manager-edit .sub-footer-2,
 .panels-ipe-editing .sub-header-1,
 .panels-ipe-editing .sub-header-2,
 .panels-ipe-editing .sub-footer-1,
@@ -62,11 +90,19 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+  #page-manager-edit .sub-header-1 .empty,
+  #page-manager-edit .sub-header-2 .empty,
+  #page-manager-edit .sub-footer-1 .empty,
+  #page-manager-edit .sub-footer-2 .empty,
   .panels-ipe-editing .sub-header-1 .empty,
   .panels-ipe-editing .sub-header-2 .empty,
   .panels-ipe-editing .sub-footer-1 .empty,
   .panels-ipe-editing .sub-footer-2 .empty {
     display: block; }
+  #page-manager-edit .sub-header-1 .no-sides,
+  #page-manager-edit .sub-header-2 .no-sides,
+  #page-manager-edit .sub-footer-1 .no-sides,
+  #page-manager-edit .sub-footer-2 .no-sides,
   .panels-ipe-editing .sub-header-1 .no-sides,
   .panels-ipe-editing .sub-header-2 .no-sides,
   .panels-ipe-editing .sub-footer-1 .no-sides,
