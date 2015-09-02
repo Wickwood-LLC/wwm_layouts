@@ -31,15 +31,15 @@
     print "no-mid";
   }?> clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <div class="panel-panel panel-col panel-col-mid">
+    <?php if ($content['help']): ?>
+      <div class="help">
+        <?php print $content['help']; ?>
+      </div>
+    <?php endif; ?>
     <?php if ($content['content_top']): ?>
     	<div class="content-top">
         <?php print $content['content_top']; ?>
       </div>
-    <?php endif; ?>
-    <?php if ($content['help']): ?>
-    	<div class="help">
-    	  <?php print $content['help']; ?>
-    	</div>
     <?php endif; ?>
     <?php if ($content['content']): ?>
     	<div class="content-main">
