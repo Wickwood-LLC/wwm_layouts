@@ -42,6 +42,19 @@
         -ms-flex: 0 1 48%;
             flex: 0 1 48%;
     margin: 0 1%; }
+    #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-mid div,
+    #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid div,
+    #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid div,
+    #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-col-mid div,
+    #panelizer-edit-content-form .panel-wwm-3col-stacked.no-sidebar .panel-col-mid div,
+    #panelizer-edit-content-form .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid div,
+    #panelizer-edit-content-form .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid div,
+    #panelizer-edit-content-form .panel-wwm-3col-stacked.no-mid .panel-col-mid div,
+    .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-mid div,
+    .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid div,
+    .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid div,
+    .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-col-mid div {
+      margin-bottom: 20px; }
   #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-left,
   #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-right,
   #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-left,
@@ -219,3 +232,5 @@
       margin-right: 1%; }
     .panel-wwm-3col-stacked.no-mid.has-two-sidebars .panel-col-right {
       margin-left: 1%; } }
+
+/*# sourceMappingURL=wwm_stacked_and_packed_2.css.map */

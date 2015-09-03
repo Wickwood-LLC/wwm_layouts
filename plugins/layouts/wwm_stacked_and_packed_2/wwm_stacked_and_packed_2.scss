@@ -18,6 +18,10 @@
 		.panel-col-mid {
 			flex: 0 1 48%;
 			margin: 0 1%;
+
+			div {
+				margin-bottom: 20px;
+			}
 		}
 		.panel-col-left,
 		.panel-col-right {
