@@ -3,7 +3,8 @@
  	*/
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
 
-/* These are the rules that maintain the original layout in customize mode and in page manager*/
+/* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin,
 #page-manager-edit,
 #panelizer-edit-content-form,
 .panels-ipe-editing {
