@@ -153,8 +153,7 @@
   width: 100%; }
 
 /* These are the rules that set the layout in demo mode  */
-.panel-wwm-3col-stacked,
-.block-content {
+.panel-wwm-3col-stacked {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -171,59 +170,47 @@
           justify-content: space-between; }
   .panel-wwm-3col-stacked .panel-col-mid,
   .panel-wwm-3col-stacked .panel-col-left,
-  .panel-wwm-3col-stacked .panel-col-right,
-  .block-content .panel-col-mid,
-  .block-content .panel-col-left,
-  .block-content .panel-col-right {
+  .panel-wwm-3col-stacked .panel-col-right {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%; }
   @media (min-width: 768px) {
-    .panel-wwm-3col-stacked .panel-col-mid,
-    .block-content .panel-col-mid {
+    .panel-wwm-3col-stacked .panel-col-mid {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 98%;
           -ms-flex: 0 0 98%;
               flex: 0 0 98%;
       margin: 0 1%; }
-    .panel-wwm-3col-stacked.has-one-sidebar .panel-col-sidebar,
-    .block-content.has-one-sidebar .panel-col-sidebar {
+    .panel-wwm-3col-stacked.has-one-sidebar .panel-col-sidebar {
       -webkit-box-flex: 0;
       -webkit-flex: 0 1 100%;
           -ms-flex: 0 1 100%;
               flex: 0 1 100%; }
-    .panel-wwm-3col-stacked.has-two-sidebars .panel-col-sidebar,
-    .block-content.has-two-sidebars .panel-col-sidebar {
+    .panel-wwm-3col-stacked.has-two-sidebars .panel-col-sidebar {
       -webkit-box-flex: 0;
       -webkit-flex: 0 1 49%;
           -ms-flex: 0 1 49%;
               flex: 0 1 49%; }
-    .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
-    .block-content.has-two-sidebars .panel-col-left {
+    .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left {
       margin-right: 1%; }
-    .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right,
-    .block-content.has-two-sidebars .panel-col-right {
+    .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
       margin-left: 1%; } }
   @media (min-width: 1024px) {
-    .panel-wwm-3col-stacked.no-sidebar .panel-col-mid,
-    .block-content.no-sidebar .panel-col-mid {
+    .panel-wwm-3col-stacked.no-sidebar .panel-col-mid {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 98%;
           -ms-flex: 0 0 98%;
               flex: 0 0 98%; }
-    .panel-wwm-3col-stacked.no-sidebar .panel-col-sidebar,
-    .block-content.no-sidebar .panel-col-sidebar {
+    .panel-wwm-3col-stacked.no-sidebar .panel-col-sidebar {
       display: none; }
-    .panel-wwm-3col-stacked.left-sidebar .panel-col-mid,
-    .block-content.left-sidebar .panel-col-mid {
+    .panel-wwm-3col-stacked.left-sidebar .panel-col-mid {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 74%;
           -ms-flex: 0 0 74%;
               flex: 0 0 74%;
       margin: 0 0 0 1%; }
-    .panel-wwm-3col-stacked.left-sidebar .panel-col-left,
-    .block-content.left-sidebar .panel-col-left {
+    .panel-wwm-3col-stacked.left-sidebar .panel-col-left {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 24%;
           -ms-flex: 0 0 24%;
@@ -233,69 +220,55 @@
       -webkit-order: -1;
           -ms-flex-order: -1;
               order: -1; }
-    .panel-wwm-3col-stacked.left-sidebar .panel-col-right,
-    .block-content.left-sidebar .panel-col-right {
+    .panel-wwm-3col-stacked.left-sidebar .panel-col-right {
       display: none; }
-    .panel-wwm-3col-stacked.right-sidebar .panel-col-mid,
-    .block-content.right-sidebar .panel-col-mid {
+    .panel-wwm-3col-stacked.right-sidebar .panel-col-mid {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 74%;
           -ms-flex: 0 0 74%;
               flex: 0 0 74%;
       margin: 0 1% 0 0; }
-    .panel-wwm-3col-stacked.right-sidebar .panel-col-left,
-    .block-content.right-sidebar .panel-col-left {
+    .panel-wwm-3col-stacked.right-sidebar .panel-col-left {
       display: none; }
-    .panel-wwm-3col-stacked.right-sidebar .panel-col-right,
-    .block-content.right-sidebar .panel-col-right {
+    .panel-wwm-3col-stacked.right-sidebar .panel-col-right {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 24%;
           -ms-flex: 0 0 24%;
               flex: 0 0 24%;
       margin-left: 1%; }
-    .panel-wwm-3col-stacked.has-two-sidebars,
-    .block-content.has-two-sidebars {
+    .panel-wwm-3col-stacked.has-two-sidebars {
       -webkit-flex-flow: row nowrap;
           -ms-flex-flow: row nowrap;
               flex-flow: row nowrap; }
-      .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid,
-      .block-content.has-two-sidebars .panel-col-mid {
+      .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid {
         -webkit-box-flex: 2;
         -webkit-flex: 2 1 0;
             -ms-flex: 2 1 0;
                 flex: 2 1 0;
         margin: 0 1%; }
       .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
-      .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right,
-      .block-content.has-two-sidebars .panel-col-left,
-      .block-content.has-two-sidebars .panel-col-right {
+      .panel-wwm-3col-stacked.has-two-sidebars .panel-col-right {
         -webkit-box-flex: 1;
         -webkit-flex: 1 1 0;
             -ms-flex: 1 1 0;
                 flex: 1 1 0;
         margin: 0; }
-      .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left,
-      .block-content.has-two-sidebars .panel-col-left {
+      .panel-wwm-3col-stacked.has-two-sidebars .panel-col-left {
         -webkit-box-ordinal-group: 0;
         -webkit-order: -1;
             -ms-flex-order: -1;
                 order: -1; }
-    .panel-wwm-3col-stacked.no-mid .panel-col-mid,
-    .block-content.no-mid .panel-col-mid {
+    .panel-wwm-3col-stacked.no-mid .panel-col-mid {
       display: none; }
-    .panel-wwm-3col-stacked.no-mid.left-sidebar .panel-col-sidebar, .panel-wwm-3col-stacked.no-mid.right-sidebar .panel-col-sidebar,
-    .block-content.no-mid.left-sidebar .panel-col-sidebar,
-    .block-content.no-mid.right-sidebar .panel-col-sidebar {
+    .panel-wwm-3col-stacked.no-mid.left-sidebar .panel-col-sidebar, .panel-wwm-3col-stacked.no-mid.right-sidebar .panel-col-sidebar {
       margin: 0;
       -webkit-box-flex: 1;
       -webkit-flex: 1 1 0;
           -ms-flex: 1 1 0;
               flex: 1 1 0; }
-    .panel-wwm-3col-stacked.no-mid.has-two-sidebars .panel-col-left,
-    .block-content.no-mid.has-two-sidebars .panel-col-left {
+    .panel-wwm-3col-stacked.no-mid.has-two-sidebars .panel-col-left {
       margin-right: 1%; }
-    .panel-wwm-3col-stacked.no-mid.has-two-sidebars .panel-col-right,
-    .block-content.no-mid.has-two-sidebars .panel-col-right {
+    .panel-wwm-3col-stacked.no-mid.has-two-sidebars .panel-col-right {
       margin-left: 1%; } }
 
 /*# sourceMappingURL=wwm_stacked_and_packed_3.css.map */
