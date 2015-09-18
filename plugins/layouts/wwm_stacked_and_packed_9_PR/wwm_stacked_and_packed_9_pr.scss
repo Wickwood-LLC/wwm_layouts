@@ -83,6 +83,24 @@
 		flex: 0 0 100%;
 	}
 
+	.content-main {
+		display: flex;
+		flex-flow: row wrap;
+
+		&>* {
+			flex: 1 100%;
+		}
+
+		.content-inner-top-left {
+			flex: 1 0;
+			margin-right: .5em;
+		}
+		.content-inner-top-right {
+			flex: 1 0;
+			margin-left: .5em;
+		}
+	}
+
 	@include breakpoint(768px) {
 	 	.panel-col-mid {
 		 	flex: 0 0 98%;
