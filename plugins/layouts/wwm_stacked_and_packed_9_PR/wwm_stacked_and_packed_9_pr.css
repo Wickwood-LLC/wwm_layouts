@@ -132,22 +132,22 @@
             -ms-flex: 1 0;
                 flex: 1 0;
         margin-right: .5em; }
-      .page-admin .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      .page-admin .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      .page-admin .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-left,
-      .page-admin .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-left,
-      #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-left,
-      #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-left,
-      #panelizer-edit-content-form .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      #panelizer-edit-content-form .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      #panelizer-edit-content-form .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-left,
-      #panelizer-edit-content-form .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-left,
-      .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-left,
-      .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-left,
-      .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-left {
+      .page-admin .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      .page-admin .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      .page-admin .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-right,
+      .page-admin .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-right,
+      #page-manager-edit .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      #page-manager-edit .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      #page-manager-edit .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-right,
+      #page-manager-edit .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-right,
+      #panelizer-edit-content-form .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      #panelizer-edit-content-form .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      #panelizer-edit-content-form .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-right,
+      #panelizer-edit-content-form .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-right,
+      .panels-ipe-editing .panel-wwm-3col-stacked.no-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      .panels-ipe-editing .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid .content-main .content-inner-top-right,
+      .panels-ipe-editing .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid .content-main .content-inner-top-right,
+      .panels-ipe-editing .panel-wwm-3col-stacked.no-mid .panel-col-mid .content-main .content-inner-top-right {
         -webkit-box-flex: 1;
         -webkit-flex: 1 0;
             -ms-flex: 1 0;
