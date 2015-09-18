@@ -24,6 +24,24 @@
 			div {
 				margin-bottom: 20px;
 			}
+
+			.content-main {
+				display: flex;
+				flex-flow: row wrap;
+
+				&>* {
+					flex: 1 100%;
+				}
+
+				.content-inner-top-left {
+					flex: 1 0;
+    				margin-right: .5em;
+				}
+				.content-inner-top-left {
+					flex: 1 0;
+    				margin-left: .5em;
+				}
+			}
 		}
 		.panel-col-left,
 		.panel-col-right {
