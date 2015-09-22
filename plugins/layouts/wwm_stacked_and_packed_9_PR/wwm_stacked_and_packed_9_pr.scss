@@ -29,7 +29,7 @@
 				display: inline-flex;
 				flex-flow: row wrap;
 
-				&>* {
+				.content-inner > * {
 					flex: 1 100%;
 				}
 
@@ -87,7 +87,7 @@
 		display: inline-flex;
 		flex-flow: row wrap;
 
-		&>* {
+		.content-inner > * {
 			flex: 1 100%;
 		}
 	}

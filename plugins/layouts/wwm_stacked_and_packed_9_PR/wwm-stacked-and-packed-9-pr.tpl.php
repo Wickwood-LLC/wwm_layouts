@@ -61,11 +61,13 @@
       </div>
     <?php endif; ?>
   	<div class="content-main">
-  	  <div class="content-inner-header"><?php print $content['content_inner_header']; ?></div> 
-      <div class="content-inner-top-left"><?php print $content['content_inner_top_left']; ?></div>
-      <div class="content-inner-top-right"><?php print $content['content_inner_top_right']; ?></div>
-      <div class="content-inner-main"><?php print $content['content_inner_main']; ?></div>
-      <div class="content-inner-footer"><?php print $content['content_inner_footer']; ?></div>
+      <div class="content-inner">
+    	  <div class="content-inner-header"><?php print $content['content_inner_header']; ?></div> 
+        <div class="content-inner-top-left"><?php print $content['content_inner_top_left']; ?></div>
+        <div class="content-inner-top-right"><?php print $content['content_inner_top_right']; ?></div>
+        <div class="content-inner-main"><?php print $content['content_inner_main']; ?></div>
+        <div class="content-inner-footer"><?php print $content['content_inner_footer']; ?></div>
+      </div>
   	</div>
     <?php if ($content['content_bottom']): ?>
     	<div class="content-bottom">
