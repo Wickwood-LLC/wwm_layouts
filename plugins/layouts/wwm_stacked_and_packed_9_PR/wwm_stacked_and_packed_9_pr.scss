@@ -26,7 +26,7 @@
 			}
 
 			.content-main {
-				display: flex;
+				display: inline-flex;
 				flex-flow: row wrap;
 
 				&>* {
@@ -84,20 +84,11 @@
 	}
 
 	.content-main {
-		display: flex;
+		display: inline-flex;
 		flex-flow: row wrap;
 
 		&>* {
 			flex: 1 100%;
-		}
-
-		.content-inner-top-left {
-			flex: 1 0;
-			margin-right: .5em;
-		}
-		.content-inner-top-right {
-			flex: 1 0;
-			margin-left: .5em;
 		}
 	}
 
@@ -105,6 +96,15 @@
 	 	.panel-col-mid {
 		 	flex: 0 0 98%;
 		 	margin: 0 1%;
+
+			.content-inner-top-left {
+				flex: 1 0;
+				margin-right: .5em;
+			}
+			.content-inner-top-right {
+				flex: 1 0;
+				margin-left: .5em;
+			}
 	 	}
 	 	&.has-one-sidebar {
 		 	.panel-col-sidebar {

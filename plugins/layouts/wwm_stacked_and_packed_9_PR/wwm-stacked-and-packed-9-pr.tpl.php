@@ -48,9 +48,6 @@
     print "has-one-sidebar right-sidebar";
   } else {
     print "no-sidebar";
-  }?>
-  <?php if (!($renderer->prepared['regions']['content']['pids']) && !($renderer->prepared['regions']['content_bottom']['pids']) && !($renderer->prepared['regions']['content_top']['pids']) && !($renderer->prepared['regions']['help']['pids'])) {
-    print "no-mid";
   }?> clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <div class="panel-panel panel-col panel-col-mid">
     <?php if ($content['help']): ?>
