@@ -20,6 +20,9 @@
 		.panel-col-mid {
 			flex: 0 1 48%;
 			margin: 0 1%;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
 
 			div {
 				margin-bottom: 20px;
@@ -81,6 +84,12 @@
 	.panel-col-left,
 	.panel-col-right {
 		flex: 0 0 100%;
+	}
+
+	.panel-col-mid {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
 	}
 
 	.content-main {
