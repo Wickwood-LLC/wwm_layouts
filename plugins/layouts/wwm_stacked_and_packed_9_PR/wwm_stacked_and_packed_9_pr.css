@@ -50,7 +50,18 @@
     -webkit-flex: 0 1 48%;
         -ms-flex: 0 1 48%;
             flex: 0 1 48%;
-    margin: 0 1%; }
+    margin: 0 1%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .page-admin .panel-wwm-3col-stacked.no-sidebar .panel-col-mid div,
     .page-admin .panel-wwm-3col-stacked.has-one-sidebar .panel-col-mid div,
     .page-admin .panel-wwm-3col-stacked.has-two-sidebars .panel-col-mid div,
@@ -309,6 +320,18 @@
     -webkit-flex: 0 0 100%;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%; }
+  .panel-wwm-3col-stacked .panel-col-mid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .panel-wwm-3col-stacked .content-main {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
