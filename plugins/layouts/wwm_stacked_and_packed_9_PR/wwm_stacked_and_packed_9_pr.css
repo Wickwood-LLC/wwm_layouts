@@ -332,6 +332,11 @@
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .panel-wwm-3col-stacked .panel-col-mid > * {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 100%;
+          -ms-flex: 1 100%;
+              flex: 1 100%; }
   .panel-wwm-3col-stacked .content-main {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;

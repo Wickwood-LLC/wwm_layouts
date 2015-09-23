@@ -90,6 +90,10 @@
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
+
+		&>* {
+			flex: 1 100%;
+		}
 	}
 
 	.content-main {
