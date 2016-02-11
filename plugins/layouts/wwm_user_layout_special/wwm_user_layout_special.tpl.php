@@ -52,8 +52,7 @@
   <?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?>
     <div class="sub-footer-right"><?php print $content['sub_footer_right']; ?></div>
   <?php endif; ?>
-<?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?><footer class="footer">
-  </footer>
-      <?php print $content['footer']; ?>
-  </footer>
+</footer>
+<?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?>
+  <footer class="footer"><?php print $content['footer']; ?></footer>
 <?php endif; ?>
