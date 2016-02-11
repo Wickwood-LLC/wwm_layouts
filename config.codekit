@@ -761,6 +761,105 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm-stacked-and-packed-9-pr.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm-stacked-and-packed-9-pr.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7923,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.png",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.scss",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_stacked_and_packed_9_PR\/wwm_stacked_and_packed_9_pr.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59198,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.png",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.scss",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -771,7 +870,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "wwm_layouts",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_orange"
 	},
 "projectSettings": {
