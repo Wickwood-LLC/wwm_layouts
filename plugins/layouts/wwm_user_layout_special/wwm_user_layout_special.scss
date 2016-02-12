@@ -24,7 +24,8 @@ $visual-grid: true !global;
 
 				.conten-top,
 				.content-bottom {
-					@include fill-parent();
+					@include span-columns(8);
+					@include omega();
 				}
 
 				.content-left,
