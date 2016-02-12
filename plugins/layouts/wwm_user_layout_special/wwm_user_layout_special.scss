@@ -4,50 +4,97 @@
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
 @import "bourbon", "neat";
 
-
-$visual-grid: true !global;
-
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin,
-#page-manager-edit,
-#panelizer-edit-content-form,
-.panels-ipe-editing {
-	.wwm-user-layout-special {
+// .page-admin,
+// #page-manager-edit,
+// #panelizer-edit-content-form,
+// .panels-ipe-editing {
+// 	.wwm-user-layout-special {
 		
-		.main {
-			@include outer-container(100%);
-			.sidebar {
-				@include span-columns(4);
+// 		.main {
+// 			@include outer-container(100%);
+// 			.sidebar {
+// 				@include span-columns(4);
+// 			}
+// 			.content-area {
+// 				@include span-columns(8);
+
+// 				.content-top,
+// 				.content-bottom {
+// 					@include span-columns(8 of 8);
+// 					@include omega();
+// 				}
+
+// 				.content-left,
+// 				.content-right {
+// 					@include span-columns(4 of 8);
+// 				}
+// 				.content-right {
+// 					@include omega();
+// 				}
+// 			}
+// 		}
+
+// 		.sub-footer {
+// 			@include outer-container(100%);
+// 			.sub-footer-left,
+// 			.sub-footer-mid,
+// 			.sub-footer-right {
+// 				@include span-columns(4);
+// 			}
+// 		}
+// 		.footer {
+// 			@include outer-container(100%);
+// 		}
+// 	}
+// }
+
+/* These are the rules that set the layout in the real page  */
+.wwm-user-layout-special {
+	.main {
+		display: flex;
+
+		.sidebar {
+			flex: 1 1 calc((100% / 3) - 1em);
+			margin-right: 1em;
+		}
+		.content-area {
+			flex: calc((100% / 3) * 2);
+			display: flex;
+
+			.content-top,
+			.content-bottom {
+				flex: 100%;
 			}
-			.content-area {
-				@include span-columns(8);
 
-				.content-top,
-				.content-bottom {
-					@include span-columns(8 of 8);
-					@include omega();
-				}
-
-				.content-left,
-				.content-right {
-					@include span-columns(4 of 8);
-				}
-				.content-right {
-					@include omega();
-				}
+			.content-left,
+			.content-right {
+				flex: 1 1 calc(50% - 0.5em);
+			}
+			.content-left {
+				margin-right: 0.5em;
+			}
+			.content-right {
+				margin-left: 0.5em;
 			}
 		}
+	}
+	.sub-footer {
+		display: flex;
 
-		.sub-footer {
-			@include outer-container(100%);
-			.sub-footer-left,
-			.sub-footer-mid,
-			.sub-footer-right {
-				@include span-columns(4);
-			}
+		.sub-footer-right,
+		.sub-footer-left {
+			flex: 1 1 calc((100% / 3) - 0.5em);
 		}
-		.footer {
-			@include outer-container(100%);
+		.sub-footer-left {
+			margin-right: 0.5em;
+		}
+		.sub-footer-right {
+			margin-left: 0.5em;
+		}
+		.sub-footer-mid {
+			flex: 1 1 calc((100% / 3) - 1em);
+			margin: 0 0.5em;
 		}
 	}
 }
