@@ -139,6 +139,11 @@ html {
     .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
     .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right:last-child {
       margin-right: 0; }
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-right,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-right,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-right,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right {
+    margin: 0; }
 .page-admin .wwm-user-layout-special .footer,
 #page-manager-edit .wwm-user-layout-special .footer,
 #panelizer-edit-content-form .wwm-user-layout-special .footer,
