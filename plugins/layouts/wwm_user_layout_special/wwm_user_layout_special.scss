@@ -100,30 +100,30 @@
 	}
 
 	// When some regions are empty
-	.no-sidebar {
+	&.no-sidebar {
 		.sidebar {	display: none; }
 		.content-area {	margin-left: 0; }
 	}
-	.no-content {
+	&.no-content {
 		.content-area { display: none; }
 		.sidebar { margin-right: 0; }
 	}
-	.no-left {
+	&.no-left {
 		.content-left { display: none; }
 		.content-right { margin-left: 0; }
 	}
-	.no-right {
+	&.no-right {
 		.content-right { display: none; }
 		.content-left { margin-right: 0; }
 	}
-	.no-sub-footer-left {
+	&.no-sub-footer-left {
 		.sub-footer-left { display: none; }
 		.sub-footer-mid { margin-left: 0; }
 	}
-	.no-sub-footer-mid {
+	&.no-sub-footer-mid {
 		.sub-footer-mid { display: none; }
 	}
-	.no-sub-footer-right {
+	&.no-sub-footer-right {
 		.sub-footer-right { display: none; }
 		.sub-footer-mid { margin-right: 0; }
 	}
