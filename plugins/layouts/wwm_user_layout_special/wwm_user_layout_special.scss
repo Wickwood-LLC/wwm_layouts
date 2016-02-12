@@ -22,6 +22,11 @@ $visual-grid: true !global;
 			.content-area {
 				@include span-columns(8);
 
+				.conten-top,
+				.content-bottom {
+					@include fill-parent();
+				}
+
 				.content-left,
 				.content-right {
 					@include span-columns(4 of 8);

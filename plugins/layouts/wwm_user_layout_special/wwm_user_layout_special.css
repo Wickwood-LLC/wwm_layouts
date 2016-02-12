@@ -48,6 +48,15 @@ html {
     #panelizer-edit-content-form .wwm-user-layout-special .main .content-area:last-child,
     .panels-ipe-editing .wwm-user-layout-special .main .content-area:last-child {
       margin-right: 0; }
+    .page-admin .wwm-user-layout-special .main .content-area .conten-top,
+    .page-admin .wwm-user-layout-special .main .content-area .content-bottom,
+    #page-manager-edit .wwm-user-layout-special .main .content-area .conten-top,
+    #page-manager-edit .wwm-user-layout-special .main .content-area .content-bottom,
+    #panelizer-edit-content-form .wwm-user-layout-special .main .content-area .conten-top,
+    #panelizer-edit-content-form .wwm-user-layout-special .main .content-area .content-bottom,
+    .panels-ipe-editing .wwm-user-layout-special .main .content-area .conten-top,
+    .panels-ipe-editing .wwm-user-layout-special .main .content-area .content-bottom {
+      width: 100%; }
     .page-admin .wwm-user-layout-special .main .content-area .content-left,
     .page-admin .wwm-user-layout-special .main .content-area .content-right,
     #page-manager-edit .wwm-user-layout-special .main .content-area .content-left,
