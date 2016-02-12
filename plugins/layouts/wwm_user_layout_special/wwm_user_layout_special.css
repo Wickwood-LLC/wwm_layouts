@@ -48,6 +48,27 @@ html {
     #panelizer-edit-content-form .wwm-user-layout-special .main .content-area:last-child,
     .panels-ipe-editing .wwm-user-layout-special .main .content-area:last-child {
       margin-right: 0; }
+    .page-admin .wwm-user-layout-special .main .content-area .content-left,
+    .page-admin .wwm-user-layout-special .main .content-area .content-right,
+    #page-manager-edit .wwm-user-layout-special .main .content-area .content-left,
+    #page-manager-edit .wwm-user-layout-special .main .content-area .content-right,
+    #panelizer-edit-content-form .wwm-user-layout-special .main .content-area .content-left,
+    #panelizer-edit-content-form .wwm-user-layout-special .main .content-area .content-right,
+    .panels-ipe-editing .wwm-user-layout-special .main .content-area .content-left,
+    .panels-ipe-editing .wwm-user-layout-special .main .content-area .content-right {
+      float: left;
+      display: block;
+      margin-right: 3.5786636068%;
+      width: 48.2106681966%; }
+      .page-admin .wwm-user-layout-special .main .content-area .content-left:last-child,
+      .page-admin .wwm-user-layout-special .main .content-area .content-right:last-child,
+      #page-manager-edit .wwm-user-layout-special .main .content-area .content-left:last-child,
+      #page-manager-edit .wwm-user-layout-special .main .content-area .content-right:last-child,
+      #panelizer-edit-content-form .wwm-user-layout-special .main .content-area .content-left:last-child,
+      #panelizer-edit-content-form .wwm-user-layout-special .main .content-area .content-right:last-child,
+      .panels-ipe-editing .wwm-user-layout-special .main .content-area .content-left:last-child,
+      .panels-ipe-editing .wwm-user-layout-special .main .content-area .content-right:last-child {
+        margin-right: 0; }
 .page-admin .wwm-user-layout-special .sub-footer,
 #page-manager-edit .wwm-user-layout-special .sub-footer,
 #panelizer-edit-content-form .wwm-user-layout-special .sub-footer,

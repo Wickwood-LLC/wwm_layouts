@@ -21,6 +21,11 @@ $visual-grid: true !global;
 			}
 			.content-area {
 				@include span-columns(8);
+
+				.content-left,
+				.content-right {
+					@include span-columns(4 of 8);
+				}
 			}
 		}
 
