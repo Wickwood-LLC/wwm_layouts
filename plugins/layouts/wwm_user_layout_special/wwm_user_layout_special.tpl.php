@@ -23,34 +23,34 @@
 
 <section class="main">
   <aside class="sidebar">
-    <?php if (($renderer->prepared['regions']['sidebar']['pids'])) : ?><?php print $content['sidebar']; ?><?php endif; ?>
+    <?php print $content['sidebar']; ?>
   </aside>
   <section class="content-area">
     <div class="content-top">
-      <?php if (($renderer->prepared['regions']['content_top']['pids'])) : ?><?php print $content['content_top']; ?><?php endif; ?>
+      <?php print $content['content_top']; ?>
     </div>
     <div class="content-left">
-      <?php if (($renderer->prepared['regions']['content_left']['pids'])) : ?><?php print $content['content_left']; ?><?php endif; ?>
+      <?php print $content['content_left']; ?>
     </div>
     <div class="content-right">
-      <?php if (($renderer->prepared['regions']['content_right']['pids'])) : ?><?php print $content['content_right']; ?><?php endif; ?>
+      <?php print $content['content_right']; ?>
     </div>
     <div class="content-bottom">
-      <?php if (($renderer->prepared['regions']['content_bottom']['pids'])) : ?><?php print $content['content_bottom']; ?><?php endif; ?>
+      <?php print $content['content_bottom']; ?>
     </div>
   </section>
 </section>
 <footer class="sub-footer">
   <div class="sub-footer-left">
-    <?php if (($renderer->prepared['regions']['sub_footer_left']['pids'])) : ?><?php print $content['sub_footer_left']; ?><?php endif; ?>
+    <?php print $content['sub_footer_left']; ?>
   </div>
   <div class="sub-footer-mid">
-    <?php if (($renderer->prepared['regions']['sub_footer_mid']['pids'])) : ?><?php print $content['sub_footer_mid']; ?><?php endif; ?>
+    <?php print $content['sub_footer_mid']; ?>
   </div>
   <div class="sub-footer-right">
-    <?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?><?php print $content['sub_footer_right']; ?><?php endif; ?>
+    <?php print $content['sub_footer_right']; ?>
   </div>
 </footer>
 <footer class="footer">
-  <?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?><?php print $content['footer']; ?><?php endif; ?>
+  <?php print $content['footer']; ?>
 </footer>
