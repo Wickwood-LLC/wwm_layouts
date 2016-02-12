@@ -95,7 +95,7 @@ html {
     #page-manager-edit .wwm-user-layout-special .main .content-area .content-right,
     #panelizer-edit-content-form .wwm-user-layout-special .main .content-area .content-right,
     .panels-ipe-editing .wwm-user-layout-special .main .content-area .content-right {
-      margin-right: 0; }
+      margin: 0; }
 .page-admin .wwm-user-layout-special .sub-footer,
 #page-manager-edit .wwm-user-layout-special .sub-footer,
 #panelizer-edit-content-form .wwm-user-layout-special .sub-footer,

@@ -30,7 +30,7 @@
 					@include span-columns(4 of 8);
 				}
 				.content-right {
-					@include omega();
+					margin: 0;
 				}
 			}
 		}
