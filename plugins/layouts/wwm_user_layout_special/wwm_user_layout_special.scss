@@ -10,10 +10,8 @@
 #panelizer-edit-content-form,
 .panels-ipe-editing {
 	.wwm-user-layout-special {		
-		* {
-			display: block;
-		}
 		.main {
+			display: block;
 			@include outer-container(100%);
 			.sidebar {
 				@include span-columns(4);
@@ -38,6 +36,7 @@
 		}
 
 		.sub-footer {
+			display: block;
 			@include outer-container(100%);
 			.sub-footer-left,
 			.sub-footer-mid,
@@ -49,6 +48,7 @@
 			}
 		}
 		.footer {
+			display: block;
 			@include outer-container(100%);
 		}
 	}

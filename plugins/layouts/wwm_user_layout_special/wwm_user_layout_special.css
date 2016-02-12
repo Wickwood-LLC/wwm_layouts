@@ -8,15 +8,11 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin .wwm-user-layout-special *,
-#page-manager-edit .wwm-user-layout-special *,
-#panelizer-edit-content-form .wwm-user-layout-special *,
-.panels-ipe-editing .wwm-user-layout-special * {
-  display: block; }
 .page-admin .wwm-user-layout-special .main,
 #page-manager-edit .wwm-user-layout-special .main,
 #panelizer-edit-content-form .wwm-user-layout-special .main,
 .panels-ipe-editing .wwm-user-layout-special .main {
+  display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
@@ -105,6 +101,7 @@ html {
 #page-manager-edit .wwm-user-layout-special .sub-footer,
 #panelizer-edit-content-form .wwm-user-layout-special .sub-footer,
 .panels-ipe-editing .wwm-user-layout-special .sub-footer {
+  display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
@@ -153,6 +150,7 @@ html {
 #page-manager-edit .wwm-user-layout-special .footer,
 #panelizer-edit-content-form .wwm-user-layout-special .footer,
 .panels-ipe-editing .wwm-user-layout-special .footer {
+  display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
