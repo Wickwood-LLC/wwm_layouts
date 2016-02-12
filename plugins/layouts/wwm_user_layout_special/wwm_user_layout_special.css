@@ -8,60 +8,102 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin .wwm-user-layout-special .main .sidebar,
-#page-manager-edit .wwm-user-layout-special .main .sidebar,
-#panelizer-edit-content-form .wwm-user-layout-special .main .sidebar,
-.panels-ipe-editing .wwm-user-layout-special .main .sidebar {
-  float: left;
-  display: block;
-  margin-right: 2.3576515979%;
-  width: 31.7615656014%; }
-  .page-admin .wwm-user-layout-special .main .sidebar:last-child,
-  #page-manager-edit .wwm-user-layout-special .main .sidebar:last-child,
-  #panelizer-edit-content-form .wwm-user-layout-special .main .sidebar:last-child,
-  .panels-ipe-editing .wwm-user-layout-special .main .sidebar:last-child {
-    margin-right: 0; }
-.page-admin .wwm-user-layout-special .main .content-area,
-#page-manager-edit .wwm-user-layout-special .main .content-area,
-#panelizer-edit-content-form .wwm-user-layout-special .main .content-area,
-.panels-ipe-editing .wwm-user-layout-special .main .content-area {
-  float: left;
-  display: block;
-  margin-right: 2.3576515979%;
-  width: 65.8807828007%; }
-  .page-admin .wwm-user-layout-special .main .content-area:last-child,
-  #page-manager-edit .wwm-user-layout-special .main .content-area:last-child,
-  #panelizer-edit-content-form .wwm-user-layout-special .main .content-area:last-child,
-  .panels-ipe-editing .wwm-user-layout-special .main .content-area:last-child {
-    margin-right: 0; }
-.page-admin .wwm-user-layout-special .sub-footer .sub-footer-left,
-.page-admin .wwm-user-layout-special .sub-footer .sub-footer-mid,
-.page-admin .wwm-user-layout-special .sub-footer .sub-footer-right,
-#page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-left,
-#page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-mid,
-#page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-right,
-#panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-left,
-#panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-mid,
-#panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-right,
-.panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-left,
-.panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid,
-.panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right {
-  float: left;
-  display: block;
-  margin-right: 2.3576515979%;
-  width: 31.7615656014%; }
-  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
-  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
-  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-right:last-child,
-  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
-  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
-  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-right:last-child,
-  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
-  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
-  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-right:last-child,
-  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
-  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
-  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right:last-child {
-    margin-right: 0; }
+.page-admin .wwm-user-layout-special .main,
+#page-manager-edit .wwm-user-layout-special .main,
+#panelizer-edit-content-form .wwm-user-layout-special .main,
+.panels-ipe-editing .wwm-user-layout-special .main {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .page-admin .wwm-user-layout-special .main::after,
+  #page-manager-edit .wwm-user-layout-special .main::after,
+  #panelizer-edit-content-form .wwm-user-layout-special .main::after,
+  .panels-ipe-editing .wwm-user-layout-special .main::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .page-admin .wwm-user-layout-special .main .sidebar,
+  #page-manager-edit .wwm-user-layout-special .main .sidebar,
+  #panelizer-edit-content-form .wwm-user-layout-special .main .sidebar,
+  .panels-ipe-editing .wwm-user-layout-special .main .sidebar {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 31.7615656014%; }
+    .page-admin .wwm-user-layout-special .main .sidebar:last-child,
+    #page-manager-edit .wwm-user-layout-special .main .sidebar:last-child,
+    #panelizer-edit-content-form .wwm-user-layout-special .main .sidebar:last-child,
+    .panels-ipe-editing .wwm-user-layout-special .main .sidebar:last-child {
+      margin-right: 0; }
+  .page-admin .wwm-user-layout-special .main .content-area,
+  #page-manager-edit .wwm-user-layout-special .main .content-area,
+  #panelizer-edit-content-form .wwm-user-layout-special .main .content-area,
+  .panels-ipe-editing .wwm-user-layout-special .main .content-area {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 65.8807828007%; }
+    .page-admin .wwm-user-layout-special .main .content-area:last-child,
+    #page-manager-edit .wwm-user-layout-special .main .content-area:last-child,
+    #panelizer-edit-content-form .wwm-user-layout-special .main .content-area:last-child,
+    .panels-ipe-editing .wwm-user-layout-special .main .content-area:last-child {
+      margin-right: 0; }
+.page-admin .wwm-user-layout-special .sub-footer,
+#page-manager-edit .wwm-user-layout-special .sub-footer,
+#panelizer-edit-content-form .wwm-user-layout-special .sub-footer,
+.panels-ipe-editing .wwm-user-layout-special .sub-footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .page-admin .wwm-user-layout-special .sub-footer::after,
+  #page-manager-edit .wwm-user-layout-special .sub-footer::after,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer::after,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-left,
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-right,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-left,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-right,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-left,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-right,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-left,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 31.7615656014%; }
+    .page-admin .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
+    .page-admin .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
+    .page-admin .wwm-user-layout-special .sub-footer .sub-footer-right:last-child,
+    #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
+    #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
+    #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-right:last-child,
+    #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
+    #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
+    #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-right:last-child,
+    .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-left:last-child,
+    .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
+    .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right:last-child {
+      margin-right: 0; }
+.page-admin .wwm-user-layout-special .footer,
+#page-manager-edit .wwm-user-layout-special .footer,
+#panelizer-edit-content-form .wwm-user-layout-special .footer,
+.panels-ipe-editing .wwm-user-layout-special .footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .page-admin .wwm-user-layout-special .footer::after,
+  #page-manager-edit .wwm-user-layout-special .footer::after,
+  #panelizer-edit-content-form .wwm-user-layout-special .footer::after,
+  .panels-ipe-editing .wwm-user-layout-special .footer::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 /*# sourceMappingURL=wwm_user_layout_special.css.map */

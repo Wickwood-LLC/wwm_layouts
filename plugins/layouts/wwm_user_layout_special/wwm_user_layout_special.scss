@@ -15,6 +15,7 @@ $visual-grid: true !global;
 	.wwm-user-layout-special {
 		
 		.main {
+			@include outer-container;
 			.sidebar {
 				@include span-columns(4);
 			}
@@ -24,11 +25,15 @@ $visual-grid: true !global;
 		}
 
 		.sub-footer {
+			@include outer-container;
 			.sub-footer-left,
 			.sub-footer-mid,
 			.sub-footer-right {
 				@include span-columns(4);
 			}
+		}
+		.footer {
+			@include outer-container;
 		}
 	}
 }
