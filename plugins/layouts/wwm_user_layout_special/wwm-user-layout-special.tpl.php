@@ -21,17 +21,13 @@
  */
 ?>
 
-<section class="wwm-user-layout-special
-
-<?php if (!($renderer->prepared['regions']['sidebar']['pids'])) {print "no-sidebar ";}?>
+<section class="wwm-user-layout-special <?php if (!($renderer->prepared['regions']['sidebar']['pids'])) {print "no-sidebar ";}?>
 <?php if (!($renderer->prepared['regions']['content_left']['pids']) && !($renderer->prepared['regions']['content_right']['pids']) && !($renderer->prepared['regions']['content_top']['pids']) && !($renderer->prepared['regions']['content_bottom']['pids'])) {print "no-content ";}?>
 <?php if (!($renderer->prepared['regions']['content_left']['pids'])) {print "no-left ";}?>
 <?php if (!($renderer->prepared['regions']['content_right']['pids'])) {print "no-right ";}?>
 <?php if (!($renderer->prepared['regions']['sub_footer_left']['pids'])) {print "no-sub-footer-left ";}?>
 <?php if (!($renderer->prepared['regions']['sub_footer_mid']['pids'])) {print "no-sub-footer-mid ";}?>
-<?php if (!($renderer->prepared['regions']['content_right']['pids'])) {print "no-sub-footer-right ";}?>
-
-">
+<?php if (!($renderer->prepared['regions']['content_right']['pids'])) {print "no-sub-footer-right ";}?>">
   <section class="main">
     <aside class="sidebar">
       <?php print $content['sidebar']; ?>
