@@ -54,18 +54,14 @@
 
 /* These are the rules that set the layout in the real page  */
 .wwm-user-layout-special {
+	.main,
+	.sidebar,
 	.main {
 		display: flex;
-	}
-	.sidebar {
-		flex: 1 1 calc((100% / 3) - 1em);
-		margin-right: 1em;
-	}
-	.content-area {
-		flex: calc((100% / 3) * 2);
-		display: flex;
+		flex: 100%;
 		flex-flow: row wrap;
 	}
+
 	.content-top,
 	.content-bottom {
 		flex: 100%;
@@ -73,30 +69,55 @@
 
 	.content-left,
 	.content-right {
-		flex: 1 1 calc(50% - 0.5em);
+		flex: 100%;
+		margin: 0;
 	}
-	.content-left {
-		margin-right: 0.5em;
-	}
-	.content-right {
-		margin-left: 0.5em;
-	}
-	.sub-footer {
-		display: flex;
-	}
-	.sub-footer-right,
-	.sub-footer-left {
-		flex: 1 1 calc((100% / 3) - 0.5em);
-	}
-	.sub-footer-left {
-		margin-right: 0.5em;
-	}
+	.sub-footer-left,
+	.sub-footer-mid,
 	.sub-footer-right {
-		margin-left: 0.5em;
+		flex: 100%;
+		margin: 0;
 	}
-	.sub-footer-mid {
-		flex: 1 1 calc((100% / 3) - 1em);
-		margin: 0 0.5em;
+
+	@include breakpoint(768px) {
+		.sidebar {
+			flex: 1 1 calc((100% / 3) - 1em);
+			margin-right: 1em;
+		}
+		.content-area {
+			flex: calc((100% / 3) * 2);
+			flex-flow: row wrap;
+		}
+	}
+
+	@include breakpoint(1024px) {	
+		.content-left,
+		.content-right {
+			flex: 1 1 calc(50% - 0.5em);
+		}
+		.content-left {
+			margin-right: 0.5em;
+		}
+		.content-right {
+			margin-left: 0.5em;
+		}
+		.sub-footer {
+			display: flex;
+		}
+		.sub-footer-right,
+		.sub-footer-left {
+			flex: 1 1 calc((100% / 3) - 0.5em);
+		}
+		.sub-footer-left {
+			margin-right: 0.5em;
+		}
+		.sub-footer-right {
+			margin-left: 0.5em;
+		}
+		.sub-footer-mid {
+			flex: 1 1 calc((100% / 3) - 1em);
+			margin: 0 0.5em;
+		}
 	}
 
 	// When some regions are empty
