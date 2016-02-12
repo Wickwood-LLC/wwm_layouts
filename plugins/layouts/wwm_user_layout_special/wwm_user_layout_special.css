@@ -1,5 +1,47 @@
 /* This SCSS file is managed and compiled with Codekit, 
  	so we need to specify where the components are, if there are any. 
  	*/
+/* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin .wwm-user-layout-special .main,
+#page-manager-edit .wwm-user-layout-special .main,
+#panelizer-edit-content-form .wwm-user-layout-special .main,
+.panels-ipe-editing .wwm-user-layout-special .main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+  .page-admin .wwm-user-layout-special .main .sidebar,
+  #page-manager-edit .wwm-user-layout-special .main .sidebar,
+  #panelizer-edit-content-form .wwm-user-layout-special .main .sidebar,
+  .panels-ipe-editing .wwm-user-layout-special .main .sidebar {
+    width: calc(100% / 3); }
+  .page-admin .wwm-user-layout-special .main .content-area,
+  #page-manager-edit .wwm-user-layout-special .main .content-area,
+  #panelizer-edit-content-form .wwm-user-layout-special .main .content-area,
+  .panels-ipe-editing .wwm-user-layout-special .main .content-area {
+    width: calc((100% / 3) * 2); }
+.page-admin .wwm-user-layout-special .sub-footer,
+#page-manager-edit .wwm-user-layout-special .sub-footer,
+#panelizer-edit-content-form .wwm-user-layout-special .sub-footer,
+.panels-ipe-editing .wwm-user-layout-special .sub-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-left,
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-right,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-left,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-right,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-left,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-right,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-left,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right {
+    width: calc(100% / 3); }
 
 /*# sourceMappingURL=wwm_user_layout_special.css.map */

@@ -3,3 +3,34 @@
  	*/
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
 
+/* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin,
+#page-manager-edit,
+#panelizer-edit-content-form,
+.panels-ipe-editing {
+	.wwm-user-layout-special {
+		
+		.main {
+			display: flex;
+			width: 100%;
+
+			.sidebar {
+				width: calc(100% / 3);
+			}
+			.content-area {
+				width: calc((100% / 3) * 2);
+			}
+		}
+
+		.sub-footer {
+			display: flex;
+			width: 100%;
+
+			.sub-footer-left,
+			.sub-footer-mid,
+			.sub-footer-right {
+				width: calc(100% / 3);
+			}
+		}
+	}
+}
