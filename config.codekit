@@ -807,6 +807,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/plugins\/layouts\/wwm_user_layout_special\/wwm-user-layout-special.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm-user-layout-special.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -851,15 +860,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
