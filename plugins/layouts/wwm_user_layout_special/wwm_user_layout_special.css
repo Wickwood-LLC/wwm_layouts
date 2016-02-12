@@ -12,7 +12,7 @@ html {
 #page-manager-edit .wwm-user-layout-special .main,
 #panelizer-edit-content-form .wwm-user-layout-special .main,
 .panels-ipe-editing .wwm-user-layout-special .main {
-  max-width: 68em;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
   .page-admin .wwm-user-layout-special .main::after,
@@ -52,7 +52,7 @@ html {
 #page-manager-edit .wwm-user-layout-special .sub-footer,
 #panelizer-edit-content-form .wwm-user-layout-special .sub-footer,
 .panels-ipe-editing .wwm-user-layout-special .sub-footer {
-  max-width: 68em;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
   .page-admin .wwm-user-layout-special .sub-footer::after,
@@ -95,7 +95,7 @@ html {
 #page-manager-edit .wwm-user-layout-special .footer,
 #panelizer-edit-content-form .wwm-user-layout-special .footer,
 .panels-ipe-editing .wwm-user-layout-special .footer {
-  max-width: 68em;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
   .page-admin .wwm-user-layout-special .footer::after,
