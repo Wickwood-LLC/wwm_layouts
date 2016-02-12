@@ -61,6 +61,7 @@
 		.content-area {
 			flex: calc((100% / 3) * 2);
 			display: flex;
+			flex-flow: row wrap;
 
 			.content-top,
 			.content-bottom {
