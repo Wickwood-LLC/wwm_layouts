@@ -27,7 +27,7 @@
 <?php if (!($renderer->prepared['regions']['content_right']['pids'])) {print "no-right ";}?>
 <?php if (!($renderer->prepared['regions']['sub_footer_left']['pids'])) {print "no-sub-footer-left ";}?>
 <?php if (!($renderer->prepared['regions']['sub_footer_mid']['pids'])) {print "no-sub-footer-mid ";}?>
-<?php if (!($renderer->prepared['regions']['content_right']['pids'])) {print "no-sub-footer-right ";}?>">
+<?php if (!($renderer->prepared['regions']['sub_footer_right']['pids'])) {print "no-sub-footer-right ";}?>">
   <section class="main">
     <aside class="sidebar">
       <?php print $content['sidebar']; ?>
