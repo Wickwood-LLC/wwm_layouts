@@ -2,6 +2,10 @@
  	so we need to specify where the components are, if there are any. 
  	*/
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "bourbon", "neat";
+
+
+$visual-grid: true !global;
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
 .page-admin,
@@ -11,25 +15,19 @@
 	.wwm-user-layout-special {
 		
 		.main {
-			display: flex;
-			width: 100%;
-
 			.sidebar {
-				width: calc(100% / 3);
+				@include span-columns(4);
 			}
 			.content-area {
-				width: calc((100% / 3) * 2);
+				@include span-columns(8);
 			}
 		}
 
 		.sub-footer {
-			display: flex;
-			width: 100%;
-
 			.sub-footer-left,
 			.sub-footer-mid,
 			.sub-footer-right {
-				width: calc(100% / 3);
+				@include span-columns(4);
 			}
 		}
 	}
