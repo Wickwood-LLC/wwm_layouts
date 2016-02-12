@@ -8,6 +8,11 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin .wwm-user-layout-special *,
+#page-manager-edit .wwm-user-layout-special *,
+#panelizer-edit-content-form .wwm-user-layout-special *,
+.panels-ipe-editing .wwm-user-layout-special * {
+  display: block; }
 .page-admin .wwm-user-layout-special .main,
 #page-manager-edit .wwm-user-layout-special .main,
 #panelizer-edit-content-form .wwm-user-layout-special .main,
@@ -161,7 +166,6 @@ html {
 
 /* These are the rules that set the layout in the real page  */
 .wwm-user-layout-special .main,
-.wwm-user-layout-special .sidebar,
 .wwm-user-layout-special .main,
 .wwm-user-layout-special .content-area,
 .wwm-user-layout-special .sub-footer,
@@ -174,6 +178,8 @@ html {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+.wwm-user-layout-special .sidebar {
+  width: 100%; }
 .wwm-user-layout-special .content-top,
 .wwm-user-layout-special .content-bottom {
   -webkit-box-flex: 100%;

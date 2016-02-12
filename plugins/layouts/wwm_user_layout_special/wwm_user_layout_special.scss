@@ -9,8 +9,10 @@
 #page-manager-edit,
 #panelizer-edit-content-form,
 .panels-ipe-editing {
-	.wwm-user-layout-special {
-		
+	.wwm-user-layout-special {		
+		* {
+			display: block;
+		}
 		.main {
 			@include outer-container(100%);
 			.sidebar {
@@ -55,7 +57,6 @@
 /* These are the rules that set the layout in the real page  */
 .wwm-user-layout-special {
 	.main,
-	.sidebar,
 	.main,
 	.content-area,
 	.sub-footer,
@@ -63,6 +64,10 @@
 		display: flex;
 		width: 100%;
 		flex-flow: row wrap;
+	}
+
+	.sidebar {
+		width: 100%;
 	}
 
 	.content-top,
