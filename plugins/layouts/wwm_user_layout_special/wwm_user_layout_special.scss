@@ -43,6 +43,9 @@
 			.sub-footer-right {
 				@include span-columns(4);
 			}
+			.sub-footer-mid {
+				margin-left: 0;
+			}
 			.sub-footer-right {
 				margin: 0;
 			}

@@ -141,6 +141,11 @@ html {
     .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid:last-child,
     .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-right:last-child {
       margin-right: 0; }
+  .page-admin .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-mid,
+  .panels-ipe-editing .wwm-user-layout-special .sub-footer .sub-footer-mid {
+    margin-left: 0; }
   .page-admin .wwm-user-layout-special .sub-footer .sub-footer-right,
   #page-manager-edit .wwm-user-layout-special .sub-footer .sub-footer-right,
   #panelizer-edit-content-form .wwm-user-layout-special .sub-footer .sub-footer-right,
