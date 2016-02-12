@@ -22,37 +22,35 @@
 ?>
 
 <section class="main">
-  <?php if (($renderer->prepared['regions']['sidebar']['pids'])) : ?>
-    <aside class="sidebar"><?php print $content['sidebar']; ?></aside>
-  <?php endif; ?>
-  <?php if (($renderer->prepared['regions']['content_top']['pids']) || ($renderer->prepared['regions']['content_left']['pids']) || ($renderer->prepared['regions']['content_right']['pids']) || ($renderer->prepared['regions']['content_bottom']['pids'])) : ?>
-    <section class="content-area">
-      <?php if (($renderer->prepared['regions']['content_top']['pids'])) : ?>
-        <div class="content-top"><?php print $content['content_top']; ?></div>
-      <?php endif; ?>
-      <?php if (($renderer->prepared['regions']['content_left']['pids'])) : ?>
-        <div class="content-left"><?php print $content['content_left']; ?></div>
-      <?php endif; ?>
-      <?php if (($renderer->prepared['regions']['content_right']['pids'])) : ?>
-        <div class="content-right"><?php print $content['content_right']; ?></div>
-      <?php endif; ?>
-      <?php if (($renderer->prepared['regions']['content_bottom']['pids'])) : ?>
-        <div class="content-bottom"><?php print $content['content_bottom']; ?></div>
-      <?php endif; ?>
-    </section>
-  <?php endif; ?>
+  <aside class="sidebar">
+    <?php if (($renderer->prepared['regions']['sidebar']['pids'])) : ?><?php print $content['sidebar']; ?><?php endif; ?>
+  </aside>
+  <section class="content-area">
+    <div class="content-top">
+      <?php if (($renderer->prepared['regions']['content_top']['pids'])) : ?><?php print $content['content_top']; ?><?php endif; ?>
+    </div>
+    <div class="content-left">
+      <?php if (($renderer->prepared['regions']['content_left']['pids'])) : ?><?php print $content['content_left']; ?><?php endif; ?>
+    </div>
+    <div class="content-right">
+      <?php if (($renderer->prepared['regions']['content_right']['pids'])) : ?><?php print $content['content_right']; ?><?php endif; ?>
+    </div>
+    <div class="content-bottom">
+      <?php if (($renderer->prepared['regions']['content_bottom']['pids'])) : ?><?php print $content['content_bottom']; ?><?php endif; ?>
+    </div>
+  </section>
 </section>
 <footer class="sub-footer">
-  <?php if (($renderer->prepared['regions']['sub_footer_left']['pids'])) : ?>
-    <div class="sub-footer-left"><?php print $content['sub_footer_left']; ?></div>
-  <?php endif; ?>
-  <?php if (($renderer->prepared['regions']['sub_footer_mid']['pids'])) : ?>
-    <div class="sub-footer-mid"><?php print $content['sub_footer_mid']; ?></div>
-  <?php endif; ?>
-  <?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?>
-    <div class="sub-footer-right"><?php print $content['sub_footer_right']; ?></div>
-  <?php endif; ?>
+  <div class="sub-footer-left">
+    <?php if (($renderer->prepared['regions']['sub_footer_left']['pids'])) : ?><?php print $content['sub_footer_left']; ?><?php endif; ?>
+  </div>
+  <div class="sub-footer-mid">
+    <?php if (($renderer->prepared['regions']['sub_footer_mid']['pids'])) : ?><?php print $content['sub_footer_mid']; ?><?php endif; ?>
+  </div>
+  <div class="sub-footer-right">
+    <?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?><?php print $content['sub_footer_right']; ?><?php endif; ?>
+  </div>
 </footer>
-<?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?>
-  <footer class="footer"><?php print $content['footer']; ?></footer>
-<?php endif; ?>
+<footer class="footer">
+  <?php if (($renderer->prepared['regions']['content_bottom']['sub_footer_right'])) : ?><?php print $content['footer']; ?><?php endif; ?>
+</footer>
