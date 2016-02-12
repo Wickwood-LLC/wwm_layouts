@@ -98,4 +98,25 @@
 			margin: 0 0.5em;
 		}
 	}
+
+	// When some regions are empty
+	.no-sidebar {
+		.sidebar {	display: none; }
+		.content-area {	margin-left: 0; }
+	}
+	.no-content {
+		.content-area { display: none; }
+		.sidebar { margin-right: 0; }
+	}
+	.no-sub-footer-left {
+		.sub-footer-left { display: none; }
+		.sub-footer-mid { margin-left: 0; }
+	}
+	.no-sub-footer-mid {
+		.sub-footer-mid { display: none; }
+	}
+	.no-sub-footer-right {
+		.sub-footer-right { display: none; }
+		.sub-footer-mid { margin-right: 0; }
+	}
 }
