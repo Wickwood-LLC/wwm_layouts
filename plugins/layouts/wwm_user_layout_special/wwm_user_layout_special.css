@@ -77,6 +77,14 @@ html {
   display: none; }
 .wwm-user-layout-special .no-content .sidebar {
   margin-right: 0; }
+.wwm-user-layout-special .no-left .content-left {
+  display: none; }
+.wwm-user-layout-special .no-left .content-right {
+  margin-left: 0; }
+.wwm-user-layout-special .no-right .content-right {
+  display: none; }
+.wwm-user-layout-special .no-right .content-left {
+  margin-right: 0; }
 .wwm-user-layout-special .no-sub-footer-left .sub-footer-left {
   display: none; }
 .wwm-user-layout-special .no-sub-footer-left .sub-footer-mid {
