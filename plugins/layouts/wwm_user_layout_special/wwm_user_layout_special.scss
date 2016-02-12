@@ -26,6 +26,9 @@ $visual-grid: true !global;
 				.content-right {
 					@include span-columns(4 of 8);
 				}
+				.content-right {
+					@include omega();
+				}
 			}
 		}
 
