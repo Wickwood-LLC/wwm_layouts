@@ -175,7 +175,8 @@ html {
   display: flex;
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
-          flex-flow: row wrap; }
+          flex-flow: row wrap;
+  width: 100%; }
 .wwm-user-layout-special .main,
 .wwm-user-layout-special .content-area,
 .wwm-user-layout-special .sub-footer,
