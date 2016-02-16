@@ -169,7 +169,6 @@ html {
 
 /* These are the rules that set the layout in the real page  */
 .wwm-user-layout-special .main,
-.wwm-user-layout-special .main,
 .wwm-user-layout-special .content-area,
 .wwm-user-layout-special .sub-footer,
 .wwm-user-layout-special .footer {
@@ -180,7 +179,10 @@ html {
   width: 100%;
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
-          flex-flow: row wrap; }
+          flex-flow: row wrap;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start; }
 .wwm-user-layout-special .sidebar {
   width: 100%; }
 .wwm-user-layout-special .content-top,
