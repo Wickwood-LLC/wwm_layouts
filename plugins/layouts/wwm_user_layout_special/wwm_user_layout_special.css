@@ -90,6 +90,10 @@ html {
     content: "";
     display: table; }
 
+:not(.page-admin) #wwm-user-layout-special .top-columns > section,
+:not(.page-admin) #wwm-user-layout-special .bottom-columns > section {
+  margin: 0 1em; }
+
 /* These are the rules that set the layout in the real page  */
 #wwm-user-layout-special .empty {
   display: none; }
@@ -106,14 +110,13 @@ html {
   -webkit-align-content: flex-start;
       -ms-flex-line-pack: start;
           align-content: flex-start;
-  margin-bottom: 1em; }
+  margin-bottom: 2em; }
   #wwm-user-layout-special .top-columns > section,
   #wwm-user-layout-special .bottom-columns > section {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 100%;
         -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
-    margin: 0 1em; }
+            flex: 1 1 100%; }
   @media screen and (min-width: 768px) {
     #wwm-user-layout-special .top-columns .top-1,
     #wwm-user-layout-special .top-columns .top-2,
