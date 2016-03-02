@@ -32,9 +32,9 @@
 }
 
 /* These are the rules that set the layout in the real page  */
-.wwm-user-layout-special {
+#wwm-user-layout-special {
 	.empty { display: none; }
-	
+
 	.top-columns,
 	.bottom-columns {
 		display: flex;
