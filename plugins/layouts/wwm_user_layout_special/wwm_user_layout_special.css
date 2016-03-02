@@ -72,12 +72,30 @@ html {
     .panels-ipe-editing #wwm-user-layout-special .bottom-columns > section:last-child,
     #modalContent #wwm-user-layout-special .bottom-columns > section:last-child {
       margin-right: 0; }
+.page-admin #wwm-user-layout-special .footer,
+#page-manager-edit #wwm-user-layout-special .footer,
+#panelizer-edit-content-form #wwm-user-layout-special .footer,
+.panels-ipe-editing #wwm-user-layout-special .footer,
+#modalContent #wwm-user-layout-special .footer {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .page-admin #wwm-user-layout-special .footer::after,
+  #page-manager-edit #wwm-user-layout-special .footer::after,
+  #panelizer-edit-content-form #wwm-user-layout-special .footer::after,
+  .panels-ipe-editing #wwm-user-layout-special .footer::after,
+  #modalContent #wwm-user-layout-special .footer::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 /* These are the rules that set the layout in the real page  */
 #wwm-user-layout-special .empty {
   display: none; }
 #wwm-user-layout-special .top-columns,
-#wwm-user-layout-special .bottom-columns {
+#wwm-user-layout-special .bottom-columns,
+#wwm-user-layout-special .footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -91,7 +109,8 @@ html {
           align-content: flex-start;
   margin-bottom: 1em; }
   #wwm-user-layout-special .top-columns > section,
-  #wwm-user-layout-special .bottom-columns > section {
+  #wwm-user-layout-special .bottom-columns > section,
+  #wwm-user-layout-special .footer > section {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 100%;
         -ms-flex: 1 1 100%;
@@ -105,7 +124,11 @@ html {
     #wwm-user-layout-special .bottom-columns .top-1,
     #wwm-user-layout-special .bottom-columns .top-2,
     #wwm-user-layout-special .bottom-columns .top-3,
-    #wwm-user-layout-special .bottom-columns .top-4 {
+    #wwm-user-layout-special .bottom-columns .top-4,
+    #wwm-user-layout-special .footer .top-1,
+    #wwm-user-layout-special .footer .top-2,
+    #wwm-user-layout-special .footer .top-3,
+    #wwm-user-layout-special .footer .top-4 {
       -webkit-box-flex: 1;
       -webkit-flex: 1 50%;
           -ms-flex: 1 50%;
@@ -118,7 +141,11 @@ html {
     #wwm-user-layout-special .bottom-columns .top-1,
     #wwm-user-layout-special .bottom-columns .top-2,
     #wwm-user-layout-special .bottom-columns .top-3,
-    #wwm-user-layout-special .bottom-columns .top-4 {
+    #wwm-user-layout-special .bottom-columns .top-4,
+    #wwm-user-layout-special .footer .top-1,
+    #wwm-user-layout-special .footer .top-2,
+    #wwm-user-layout-special .footer .top-3,
+    #wwm-user-layout-special .footer .top-4 {
       -webkit-box-flex: 1;
       -webkit-flex: 1 25%;
           -ms-flex: 1 25%;

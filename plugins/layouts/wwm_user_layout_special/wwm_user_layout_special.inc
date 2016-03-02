@@ -18,5 +18,6 @@ $plugin = array(
     'bottom_1' => t('Bottom 1'),
     'bottom_2' => t('Bottom 2'),
     'bottom_3' => t('Bottom 3'),
+    'footer' => t('Footer'),
   ),
 );

@@ -45,4 +45,7 @@
       <?php print $content['bottom_3']; ?>
     </section>
   </section>
+  <footer class="footer <?php if (!($renderer->prepared['regions']['footer']['pids'])) {print "empty";}?>">
+    <?php print $content['footer']; ?>
+  </footer>
 </main>

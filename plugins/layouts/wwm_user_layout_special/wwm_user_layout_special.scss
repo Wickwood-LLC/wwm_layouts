@@ -28,6 +28,11 @@
 				@include span-columns(4);
 			}
 		}
+
+		.footer	{
+			display: block;
+			@include outer-container(100%);
+		}
 	}
 }
 
@@ -36,7 +41,8 @@
 	.empty { display: none; }
 
 	.top-columns,
-	.bottom-columns {
+	.bottom-columns,
+	.footer {
 		display: flex;
 		width: 100%;
 		flex-flow: row wrap;
