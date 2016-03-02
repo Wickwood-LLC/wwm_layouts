@@ -36,17 +36,6 @@
 	}
 }
 
-:not(.page-admin) {
-	#wwm-user-layout-special {
-		.top-columns,
-		.bottom-columns {
-			> section {
-				margin: 0 1em;
-			}
-		}
-	}
-}
-
 /* These are the rules that set the layout in the real page  */
 #wwm-user-layout-special {
 	.empty { display: none; }
@@ -61,6 +50,7 @@
 
 		> section {
 			flex: 1 1 100%;
+			padding: 0 1em;
 		}
 
 		@include breakpoint(768px) {
