@@ -91,11 +91,22 @@ html {
     display: table; }
 
 /* These are the rules that set the layout in the real page  */
-#wwm-user-layout-special .empty {
+:not(.page-admin) #wwm-user-layout-special .empty,
+:not(#page-manager-edit) #wwm-user-layout-special .empty,
+:not(#panelizer-edit-content-form) #wwm-user-layout-special .empty,
+:not(.panels-ipe-editing) #wwm-user-layout-special .empty,
+:not(#modalContent) #wwm-user-layout-special .empty {
   display: none; }
-#wwm-user-layout-special .top-columns,
-#wwm-user-layout-special .bottom-columns,
-#wwm-user-layout-special .footer {
+:not(.page-admin) #wwm-user-layout-special .top-columns,
+:not(.page-admin) #wwm-user-layout-special .bottom-columns,
+:not(#page-manager-edit) #wwm-user-layout-special .top-columns,
+:not(#page-manager-edit) #wwm-user-layout-special .bottom-columns,
+:not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns,
+:not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns,
+:not(.panels-ipe-editing) #wwm-user-layout-special .top-columns,
+:not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns,
+:not(#modalContent) #wwm-user-layout-special .top-columns,
+:not(#modalContent) #wwm-user-layout-special .bottom-columns {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -108,44 +119,107 @@ html {
       -ms-flex-line-pack: start;
           align-content: flex-start;
   margin-bottom: 1em; }
-  #wwm-user-layout-special .top-columns > section,
-  #wwm-user-layout-special .bottom-columns > section,
-  #wwm-user-layout-special .footer > section {
+  :not(.page-admin) #wwm-user-layout-special .top-columns > section,
+  :not(.page-admin) #wwm-user-layout-special .bottom-columns > section,
+  :not(#page-manager-edit) #wwm-user-layout-special .top-columns > section,
+  :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns > section,
+  :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns > section,
+  :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns > section,
+  :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns > section,
+  :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns > section,
+  :not(#modalContent) #wwm-user-layout-special .top-columns > section,
+  :not(#modalContent) #wwm-user-layout-special .bottom-columns > section {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 100%;
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
     margin: 0 1em; }
   @media screen and (min-width: 768px) {
-    #wwm-user-layout-special .top-columns .top-1,
-    #wwm-user-layout-special .top-columns .top-2,
-    #wwm-user-layout-special .top-columns .top-3,
-    #wwm-user-layout-special .top-columns .top-4,
-    #wwm-user-layout-special .bottom-columns .top-1,
-    #wwm-user-layout-special .bottom-columns .top-2,
-    #wwm-user-layout-special .bottom-columns .top-3,
-    #wwm-user-layout-special .bottom-columns .top-4,
-    #wwm-user-layout-special .footer .top-1,
-    #wwm-user-layout-special .footer .top-2,
-    #wwm-user-layout-special .footer .top-3,
-    #wwm-user-layout-special .footer .top-4 {
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-1,
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-2,
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-3,
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-4,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-1,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-2,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-3,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-4,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-1,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-2,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-3,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-4,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-1,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-2,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-3,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-4,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-1,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-2,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-3,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-4,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-4 {
       -webkit-box-flex: 1;
       -webkit-flex: 1 50%;
           -ms-flex: 1 50%;
               flex: 1 50%; } }
   @media screen and (min-width: 1024px) {
-    #wwm-user-layout-special .top-columns .top-1,
-    #wwm-user-layout-special .top-columns .top-2,
-    #wwm-user-layout-special .top-columns .top-3,
-    #wwm-user-layout-special .top-columns .top-4,
-    #wwm-user-layout-special .bottom-columns .top-1,
-    #wwm-user-layout-special .bottom-columns .top-2,
-    #wwm-user-layout-special .bottom-columns .top-3,
-    #wwm-user-layout-special .bottom-columns .top-4,
-    #wwm-user-layout-special .footer .top-1,
-    #wwm-user-layout-special .footer .top-2,
-    #wwm-user-layout-special .footer .top-3,
-    #wwm-user-layout-special .footer .top-4 {
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-1,
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-2,
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-3,
+    :not(.page-admin) #wwm-user-layout-special .top-columns .top-4,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(.page-admin) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-1,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-2,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-3,
+    :not(#page-manager-edit) #wwm-user-layout-special .top-columns .top-4,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(#page-manager-edit) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-1,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-2,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-3,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .top-columns .top-4,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(#panelizer-edit-content-form) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-1,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-2,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-3,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .top-columns .top-4,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(.panels-ipe-editing) #wwm-user-layout-special .bottom-columns .top-4,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-1,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-2,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-3,
+    :not(#modalContent) #wwm-user-layout-special .top-columns .top-4,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-1,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-2,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-3,
+    :not(#modalContent) #wwm-user-layout-special .bottom-columns .top-4 {
       -webkit-box-flex: 1;
       -webkit-flex: 1 25%;
           -ms-flex: 1 25%;
