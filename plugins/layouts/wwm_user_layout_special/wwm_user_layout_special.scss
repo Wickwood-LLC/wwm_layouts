@@ -9,50 +9,23 @@
 #page-manager-edit,
 #panelizer-edit-content-form,
 .panels-ipe-editing {
-	.wwm-user-layout-special {		
-		.main {
+	#wwm-user-layout-special {		
+		.top-columns {
 			display: block;
 			@include outer-container(100%);
-			.sidebar {
-				@include span-columns(4);
-			}
-			.content-area {
-				@include span-columns(8);
 
-				.content-top,
-				.content-bottom {
-					@include span-columns(8 of 8);
-					@include omega();
-				}
-
-				.content-left,
-				.content-right {
-					@include span-columns(4 of 8);
-				}
-				.content-right {
-					margin: 0;
-				}
+			> section {
+				@include span-columns(3);
 			}
 		}
 
-		.sub-footer {
+		.bottom-columns {
 			display: block;
 			@include outer-container(100%);
-			.sub-footer-left,
-			.sub-footer-mid,
-			.sub-footer-right {
+			
+			> section {
 				@include span-columns(4);
 			}
-			.sub-footer-mid {
-				margin-left: 0;
-			}
-			.sub-footer-right {
-				margin: 0;
-			}
-		}
-		.footer {
-			display: block;
-			@include outer-container(100%);
 		}
 	}
 }
