@@ -45,23 +45,23 @@
 		> section {
 			flex: 1 1 100%;
 		}
-	}
 
-	@include breakpoint(768px) {
-		.top-1,
-		.top-2,
-		.top-3,
-		.top-4 {
-			flex: 50%;
+		@include breakpoint(768px) {
+			.top-1,
+			.top-2,
+			.top-3,
+			.top-4 {
+				flex: 1 50%;
+			}
 		}
-	}
 
-	@include breakpoint(1024px) {	
-		.top-1,
-		.top-2,
-		.top-3,
-		.top-4 {
-			flex: 25%;
+		@include breakpoint(1024px) {	
+			.top-1,
+			.top-2,
+			.top-3,
+			.top-4 {
+				flex: 1 25%;
+			}
 		}
 	}
 
