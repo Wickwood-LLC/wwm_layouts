@@ -74,10 +74,10 @@ html {
       margin-right: 0; }
 
 /* These are the rules that set the layout in the real page  */
-.wwm-user-layout-special .main,
-.wwm-user-layout-special .content-area,
-.wwm-user-layout-special .sub-footer,
-.wwm-user-layout-special .footer {
+.wwm-user-layout-special .empty {
+  display: none; }
+.wwm-user-layout-special .top-columns,
+.wwm-user-layout-special .bottom-columns {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -89,76 +89,30 @@ html {
   -webkit-align-content: flex-start;
       -ms-flex-line-pack: start;
           align-content: flex-start; }
-.wwm-user-layout-special .sidebar {
-  width: 100%; }
-.wwm-user-layout-special .content-top,
-.wwm-user-layout-special .content-bottom {
-  -webkit-box-flex: 100%;
-  -webkit-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-.wwm-user-layout-special .content-left,
-.wwm-user-layout-special .content-right {
-  -webkit-box-flex: 100%;
-  -webkit-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  margin: 0; }
-.wwm-user-layout-special .sub-footer-left,
-.wwm-user-layout-special .sub-footer-mid,
-.wwm-user-layout-special .sub-footer-right {
-  -webkit-box-flex: 100%;
-  -webkit-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  margin: 0; }
+  .wwm-user-layout-special .top-columns > section,
+  .wwm-user-layout-special .bottom-columns > section {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%; }
 @media screen and (min-width: 768px) {
-  .wwm-user-layout-special .sidebar {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 calc((100% / 3) - 1em);
-        -ms-flex: 1 1 calc((100% / 3) - 1em);
-            flex: 1 1 calc((100% / 3) - 1em);
-    margin-right: 1em; }
-  .wwm-user-layout-special .content-area {
-    -webkit-box-flex: calc((100% / 3) * 2);
-    -webkit-flex: calc((100% / 3) * 2);
-        -ms-flex: calc((100% / 3) * 2);
-            flex: calc((100% / 3) * 2);
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; } }
+  .wwm-user-layout-special .top-1,
+  .wwm-user-layout-special .top-2,
+  .wwm-user-layout-special .top-3,
+  .wwm-user-layout-special .top-4 {
+    -webkit-box-flex: 50%;
+    -webkit-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%; } }
 @media screen and (min-width: 1024px) {
-  .wwm-user-layout-special .content-left,
-  .wwm-user-layout-special .content-right {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 calc(50% - 0.5em);
-        -ms-flex: 1 1 calc(50% - 0.5em);
-            flex: 1 1 calc(50% - 0.5em); }
-  .wwm-user-layout-special .content-left {
-    margin-right: 0.5em; }
-  .wwm-user-layout-special .content-right {
-    margin-left: 0.5em; }
-  .wwm-user-layout-special .sub-footer {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-  .wwm-user-layout-special .sub-footer-right,
-  .wwm-user-layout-special .sub-footer-left {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 calc((100% / 3) - 0.5em);
-        -ms-flex: 1 1 calc((100% / 3) - 0.5em);
-            flex: 1 1 calc((100% / 3) - 0.5em); }
-  .wwm-user-layout-special .sub-footer-left {
-    margin-right: 0.5em; }
-  .wwm-user-layout-special .sub-footer-right {
-    margin-left: 0.5em; }
-  .wwm-user-layout-special .sub-footer-mid {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 calc((100% / 3) - 1em);
-        -ms-flex: 1 1 calc((100% / 3) - 1em);
-            flex: 1 1 calc((100% / 3) - 1em);
-    margin: 0 0.5em; } }
+  .wwm-user-layout-special .top-1,
+  .wwm-user-layout-special .top-2,
+  .wwm-user-layout-special .top-3,
+  .wwm-user-layout-special .top-4 {
+    -webkit-box-flex: 25%;
+    -webkit-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%; } }
 .wwm-user-layout-special.no-sidebar .sidebar {
   display: none; }
 .wwm-user-layout-special.no-sidebar .content-area {
