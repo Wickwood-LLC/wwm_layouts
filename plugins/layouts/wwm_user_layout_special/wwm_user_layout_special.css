@@ -88,13 +88,15 @@ html {
           flex-flow: row wrap;
   -webkit-align-content: flex-start;
       -ms-flex-line-pack: start;
-          align-content: flex-start; }
+          align-content: flex-start;
+  margin-bottom: 1em; }
   #wwm-user-layout-special .top-columns > section,
   #wwm-user-layout-special .bottom-columns > section {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 100%;
         -ms-flex: 1 1 100%;
-            flex: 1 1 100%; }
+            flex: 1 1 100%;
+    margin: 0 1em; }
   @media screen and (min-width: 768px) {
     #wwm-user-layout-special .top-columns .top-1,
     #wwm-user-layout-special .top-columns .top-2,
@@ -121,31 +123,5 @@ html {
       -webkit-flex: 1 25%;
           -ms-flex: 1 25%;
               flex: 1 25%; } }
-#wwm-user-layout-special.no-sidebar .sidebar {
-  display: none; }
-#wwm-user-layout-special.no-sidebar .content-area {
-  margin-left: 0; }
-#wwm-user-layout-special.no-content .content-area {
-  display: none; }
-#wwm-user-layout-special.no-content .sidebar {
-  margin-right: 0; }
-#wwm-user-layout-special.no-left .content-left {
-  display: none; }
-#wwm-user-layout-special.no-left .content-right {
-  margin-left: 0; }
-#wwm-user-layout-special.no-right .content-right {
-  display: none; }
-#wwm-user-layout-special.no-right .content-left {
-  margin-right: 0; }
-#wwm-user-layout-special.no-sub-footer-left .sub-footer-left {
-  display: none; }
-#wwm-user-layout-special.no-sub-footer-left .sub-footer-mid {
-  margin-left: 0; }
-#wwm-user-layout-special.no-sub-footer-mid .sub-footer-mid {
-  display: none; }
-#wwm-user-layout-special.no-sub-footer-right .sub-footer-right {
-  display: none; }
-#wwm-user-layout-special.no-sub-footer-right .sub-footer-mid {
-  margin-right: 0; }
 
 /*# sourceMappingURL=wwm_user_layout_special.css.map */

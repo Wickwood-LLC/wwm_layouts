@@ -41,9 +41,11 @@
 		width: 100%;
 		flex-flow: row wrap;
 		align-content: flex-start;
+		margin-bottom: 1em;
 
 		> section {
 			flex: 1 1 100%;
+			margin: 0 1em;
 		}
 
 		@include breakpoint(768px) {
@@ -63,34 +65,5 @@
 				flex: 1 25%;
 			}
 		}
-	}
-
-	// When some regions are empty
-	&.no-sidebar {
-		.sidebar {	display: none; }
-		.content-area {	margin-left: 0; }
-	}
-	&.no-content {
-		.content-area { display: none; }
-		.sidebar { margin-right: 0; }
-	}
-	&.no-left {
-		.content-left { display: none; }
-		.content-right { margin-left: 0; }
-	}
-	&.no-right {
-		.content-right { display: none; }
-		.content-left { margin-right: 0; }
-	}
-	&.no-sub-footer-left {
-		.sub-footer-left { display: none; }
-		.sub-footer-mid { margin-left: 0; }
-	}
-	&.no-sub-footer-mid {
-		.sub-footer-mid { display: none; }
-	}
-	&.no-sub-footer-right {
-		.sub-footer-right { display: none; }
-		.sub-footer-mid { margin-right: 0; }
 	}
 }
