@@ -11,7 +11,8 @@ html {
 .page-admin #wwm-user-layout-special .top-columns,
 #page-manager-edit #wwm-user-layout-special .top-columns,
 #panelizer-edit-content-form #wwm-user-layout-special .top-columns,
-.panels-ipe-editing #wwm-user-layout-special .top-columns {
+.panels-ipe-editing #wwm-user-layout-special .top-columns,
+#modalContent #wwm-user-layout-special .top-columns {
   display: block;
   max-width: 100%;
   margin-left: auto;
@@ -19,14 +20,16 @@ html {
   .page-admin #wwm-user-layout-special .top-columns::after,
   #page-manager-edit #wwm-user-layout-special .top-columns::after,
   #panelizer-edit-content-form #wwm-user-layout-special .top-columns::after,
-  .panels-ipe-editing #wwm-user-layout-special .top-columns::after {
+  .panels-ipe-editing #wwm-user-layout-special .top-columns::after,
+  #modalContent #wwm-user-layout-special .top-columns::after {
     clear: both;
     content: "";
     display: table; }
   .page-admin #wwm-user-layout-special .top-columns > section,
   #page-manager-edit #wwm-user-layout-special .top-columns > section,
   #panelizer-edit-content-form #wwm-user-layout-special .top-columns > section,
-  .panels-ipe-editing #wwm-user-layout-special .top-columns > section {
+  .panels-ipe-editing #wwm-user-layout-special .top-columns > section,
+  #modalContent #wwm-user-layout-special .top-columns > section {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
@@ -34,12 +37,14 @@ html {
     .page-admin #wwm-user-layout-special .top-columns > section:last-child,
     #page-manager-edit #wwm-user-layout-special .top-columns > section:last-child,
     #panelizer-edit-content-form #wwm-user-layout-special .top-columns > section:last-child,
-    .panels-ipe-editing #wwm-user-layout-special .top-columns > section:last-child {
+    .panels-ipe-editing #wwm-user-layout-special .top-columns > section:last-child,
+    #modalContent #wwm-user-layout-special .top-columns > section:last-child {
       margin-right: 0; }
 .page-admin #wwm-user-layout-special .bottom-columns,
 #page-manager-edit #wwm-user-layout-special .bottom-columns,
 #panelizer-edit-content-form #wwm-user-layout-special .bottom-columns,
-.panels-ipe-editing #wwm-user-layout-special .bottom-columns {
+.panels-ipe-editing #wwm-user-layout-special .bottom-columns,
+#modalContent #wwm-user-layout-special .bottom-columns {
   display: block;
   max-width: 100%;
   margin-left: auto;
@@ -47,14 +52,16 @@ html {
   .page-admin #wwm-user-layout-special .bottom-columns::after,
   #page-manager-edit #wwm-user-layout-special .bottom-columns::after,
   #panelizer-edit-content-form #wwm-user-layout-special .bottom-columns::after,
-  .panels-ipe-editing #wwm-user-layout-special .bottom-columns::after {
+  .panels-ipe-editing #wwm-user-layout-special .bottom-columns::after,
+  #modalContent #wwm-user-layout-special .bottom-columns::after {
     clear: both;
     content: "";
     display: table; }
   .page-admin #wwm-user-layout-special .bottom-columns > section,
   #page-manager-edit #wwm-user-layout-special .bottom-columns > section,
   #panelizer-edit-content-form #wwm-user-layout-special .bottom-columns > section,
-  .panels-ipe-editing #wwm-user-layout-special .bottom-columns > section {
+  .panels-ipe-editing #wwm-user-layout-special .bottom-columns > section,
+  #modalContent #wwm-user-layout-special .bottom-columns > section {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
@@ -62,7 +69,8 @@ html {
     .page-admin #wwm-user-layout-special .bottom-columns > section:last-child,
     #page-manager-edit #wwm-user-layout-special .bottom-columns > section:last-child,
     #panelizer-edit-content-form #wwm-user-layout-special .bottom-columns > section:last-child,
-    .panels-ipe-editing #wwm-user-layout-special .bottom-columns > section:last-child {
+    .panels-ipe-editing #wwm-user-layout-special .bottom-columns > section:last-child,
+    #modalContent #wwm-user-layout-special .bottom-columns > section:last-child {
       margin-right: 0; }
 
 /* These are the rules that set the layout in the real page  */
