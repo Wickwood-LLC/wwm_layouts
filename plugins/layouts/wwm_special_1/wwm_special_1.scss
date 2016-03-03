@@ -1,0 +1,162 @@
+/* This SCSS file is managed and compiled with Codekit, 
+ 	so we need to specify where the components are, if there are any. 
+ 	*/
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "bourbon", "neat";
+
+/* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin,
+#page-manager-edit,
+#panelizer-edit-content-form,
+.panels-ipe-editing {
+	#wwm-special-1 {		
+		.main {
+			display: block;
+			@include outer-container(100%);
+			.sidebar {
+				@include span-columns(4);
+			}
+			.content-area {
+				@include span-columns(8);
+
+				.content-top,
+				.content-bottom {
+					@include span-columns(8 of 8);
+					@include omega();
+				}
+
+				.content-left,
+				.content-right {
+					@include span-columns(4 of 8);
+				}
+				.content-right {
+					margin: 0;
+				}
+			}
+		}
+
+		.sub-footer {
+			display: block;
+			@include outer-container(100%);
+			.sub-footer-left,
+			.sub-footer-mid,
+			.sub-footer-right {
+				@include span-columns(4);
+			}
+			.sub-footer-mid {
+				margin-left: 0;
+			}
+			.sub-footer-right {
+				margin: 0;
+			}
+		}
+		.footer {
+			display: block;
+			@include outer-container(100%);
+		}
+	}
+}
+
+/* These are the rules that set the layout in the real page  */
+#wwm-special-1 {
+	.main,
+	.content-area,
+	.sub-footer,
+	.footer {
+		display: flex;
+		width: 100%;
+		flex-flow: row wrap;
+		align-content: flex-start;
+	}
+
+	.sidebar {
+		width: 100%;
+	}
+
+	.content-top,
+	.content-bottom {
+		flex: 100%;
+	}
+
+	.content-left,
+	.content-right {
+		flex: 100%;
+		margin: 0;
+	}
+	.sub-footer-left,
+	.sub-footer-mid,
+	.sub-footer-right {
+		flex: 100%;
+		margin: 0;
+	}
+
+	@include breakpoint(768px) {
+		.sidebar {
+			flex: 1 1 calc((100% / 3) - 1em);
+			margin-right: 1em;
+		}
+		.content-area {
+			flex: calc((100% / 3) * 2);
+			flex-flow: row wrap;
+		}
+	}
+
+	@include breakpoint(1024px) {	
+		.content-left,
+		.content-right {
+			flex: 1 1 calc(50% - 0.5em);
+		}
+		.content-left {
+			margin-right: 0.5em;
+		}
+		.content-right {
+			margin-left: 0.5em;
+		}
+		.sub-footer {
+			display: flex;
+		}
+		.sub-footer-right,
+		.sub-footer-left {
+			flex: 1 1 calc((100% / 3) - 0.5em);
+		}
+		.sub-footer-left {
+			margin-right: 0.5em;
+		}
+		.sub-footer-right {
+			margin-left: 0.5em;
+		}
+		.sub-footer-mid {
+			flex: 1 1 calc((100% / 3) - 1em);
+			margin: 0 0.5em;
+		}
+	}
+
+	// When some regions are empty
+	&.no-sidebar {
+		.sidebar {	display: none; }
+		.content-area {	margin-left: 0; }
+	}
+	&.no-content {
+		.content-area { display: none; }
+		.sidebar { margin-right: 0; }
+	}
+	&.no-left {
+		.content-left { display: none; }
+		.content-right { margin-left: 0; }
+	}
+	&.no-right {
+		.content-right { display: none; }
+		.content-left { margin-right: 0; }
+	}
+	&.no-sub-footer-left {
+		.sub-footer-left { display: none; }
+		.sub-footer-mid { margin-left: 0; }
+	}
+	&.no-sub-footer-mid {
+		.sub-footer-mid { display: none; }
+	}
+	&.no-sub-footer-right {
+		.sub-footer-right { display: none; }
+		.sub-footer-mid { margin-right: 0; }
+	}
+}
