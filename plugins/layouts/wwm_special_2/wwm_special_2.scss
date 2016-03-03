@@ -59,7 +59,7 @@
 			.top-2,
 			.top-3,
 			.top-4 {
-				flex: 1 calc(50% - (2 * $padding));
+				flex: 1 calc(50% - (2 * #{$padding}));
 			}
 		}
 
@@ -68,7 +68,7 @@
 			.top-2,
 			.top-3,
 			.top-4 {
-				flex: 1 calc(25% - (2 * $padding));
+				flex: 1 calc(25% - (2 * #{$padding}));
 			}
 		}
 	}
