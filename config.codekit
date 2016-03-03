@@ -825,15 +825,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/layouts\/wwm_user_layout_special\/wwm_user_layout_special.png": {
 		"fileType": 32768,
 		"ignore": 0,
