@@ -19,7 +19,7 @@
  */
 ?>
 
-<main id="wwm-user-layout-special">
+<main id="wwm-special-2">
   <section class="top-columns">
     <section class="top-1 <?php if (!($renderer->prepared['regions']['top_1']['pids'])) {print "empty";}?>">
       <?php print $content['top_1']; ?>

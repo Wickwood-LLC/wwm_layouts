@@ -5,11 +5,11 @@
  */
 // Plugin definition
 $plugin = array(
-  'title' => t('WWM User Layout Special'),
+  'title' => t('WWM Special 2'),
   'category' => t('WWM'),
-  'icon' => 'wwm_user_layout_special.png',
-  'theme' => 'wwm_user_layout_special',
-  'css' => 'wwm_user_layout_special.css',
+  'icon' => 'wwm_special_2.png',
+  'theme' => 'wwm_special_2',
+  'css' => 'wwm_special_2.css',
   'regions' => array(
     'top_1' => t('Top 1'),
     'top_2' => t('Top 2'),
