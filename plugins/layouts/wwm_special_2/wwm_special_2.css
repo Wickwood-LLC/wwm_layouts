@@ -124,9 +124,9 @@ html {
     #wwm-special-2 .bottom-columns .top-3,
     #wwm-special-2 .bottom-columns .top-4 {
       -webkit-box-flex: 1;
-      -webkit-flex: 1 calc(50% - (2 * 1em));
-          -ms-flex: 1 calc(50% - (2 * 1em));
-              flex: 1 calc(50% - (2 * 1em)); } }
+      -webkit-flex: 1 50%;
+          -ms-flex: 1 50%;
+              flex: 1 50%; } }
   @media screen and (min-width: 1024px) {
     #wwm-special-2 .top-columns .top-1,
     #wwm-special-2 .top-columns .top-2,
@@ -137,8 +137,8 @@ html {
     #wwm-special-2 .bottom-columns .top-3,
     #wwm-special-2 .bottom-columns .top-4 {
       -webkit-box-flex: 1;
-      -webkit-flex: 1 calc(25% - (2 * 1em));
-          -ms-flex: 1 calc(25% - (2 * 1em));
-              flex: 1 calc(25% - (2 * 1em)); } }
+      -webkit-flex: 1 25%;
+          -ms-flex: 1 25%;
+              flex: 1 25%; } }
 
 /*# sourceMappingURL=wwm_special_2.css.map */
