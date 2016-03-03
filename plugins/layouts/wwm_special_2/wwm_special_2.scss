@@ -48,9 +48,10 @@
 		align-content: flex-start;
 		margin-bottom: 2em;
 
+		$padding: 1em;
 		> section {
 			flex: 1 1 100%;
-			padding: 0 1em;
+			padding: 0 $padding;
 		}
 
 		@include breakpoint(768px) {
@@ -58,7 +59,7 @@
 			.top-2,
 			.top-3,
 			.top-4 {
-				flex: 1 50%;
+				flex: 1 calc(50% - (2 * $padding));
 			}
 		}
 
@@ -67,7 +68,7 @@
 			.top-2,
 			.top-3,
 			.top-4 {
-				flex: 1 25%;
+				flex: 1 calc(25% - (2 * $padding));
 			}
 		}
 	}
