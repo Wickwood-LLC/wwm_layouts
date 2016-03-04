@@ -53,13 +53,13 @@
 			padding: 0 1em;
 		}
 
-		@include breakpoint(860px) {
+		@include breakpoint(450px) {
 			.top-1,	.top-2,	.top-3,	.top-4 {
 				flex: 1 50%;
 			}
 		}
 
-		@include breakpoint(1550px) {	
+		@include breakpoint(1250px) {	
 			.top-1,	.top-2,	.top-3,	.top-4 {
 				flex: 1 25%;
 			}
