@@ -46,7 +46,6 @@
 		width: 100%;
 		flex-flow: row wrap;
 		align-content: flex-start;
-		margin-bottom: 2em;
 
 		> section {
 			flex: 1 1 100%;
@@ -63,7 +62,9 @@
 			.top-1,	.top-2,	.top-3,	.top-4 {
 				flex: 1 25%;
 			}
+		}
 
+		@include breakpoint(900px) {
 			.bottom-1, .bottom-2, .bottom-3 {
 				flex: 1 calc(100% / 3);
 			}

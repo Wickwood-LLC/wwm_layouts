@@ -105,8 +105,7 @@ html {
           flex-flow: row wrap;
   -webkit-align-content: flex-start;
       -ms-flex-line-pack: start;
-          align-content: flex-start;
-  margin-bottom: 2em; }
+          align-content: flex-start; }
   #wwm-special-2 .top-columns > section,
   #wwm-special-2 .bottom-columns > section {
     -webkit-box-flex: 1;
@@ -133,7 +132,8 @@ html {
       -webkit-box-flex: 1;
       -webkit-flex: 1 25%;
           -ms-flex: 1 25%;
-              flex: 1 25%; }
+              flex: 1 25%; } }
+  @media screen and (min-width: 900px) {
     #wwm-special-2 .top-columns .bottom-1, #wwm-special-2 .top-columns .bottom-2, #wwm-special-2 .top-columns .bottom-3,
     #wwm-special-2 .bottom-columns .bottom-1,
     #wwm-special-2 .bottom-columns .bottom-2,
