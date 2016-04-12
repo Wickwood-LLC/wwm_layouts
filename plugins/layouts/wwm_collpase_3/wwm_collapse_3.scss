@@ -10,12 +10,14 @@
 #panelizer-edit-content-form,
 .panels-ipe-editing,
 #modalContent {
-	#wwm-collapse-3 {	
+	#wwm-collapse-3 {
+		display: block;
 		@include outer-container;
-		
+
 		.left-column,
 		.middle-column,
 		.right-column {
+			display: block;
 			@include span-columns(4);
 		}
 	}
