@@ -8,7 +8,6 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin #wwm-special-2 .top-columns,
 #page-manager-edit #wwm-special-2 .top-columns,
 #panelizer-edit-content-form #wwm-special-2 .top-columns,
 .panels-ipe-editing #wwm-special-2 .top-columns,
@@ -17,7 +16,6 @@ html {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  .page-admin #wwm-special-2 .top-columns::after,
   #page-manager-edit #wwm-special-2 .top-columns::after,
   #panelizer-edit-content-form #wwm-special-2 .top-columns::after,
   .panels-ipe-editing #wwm-special-2 .top-columns::after,
@@ -25,7 +23,6 @@ html {
     clear: both;
     content: "";
     display: table; }
-  .page-admin #wwm-special-2 .top-columns > section,
   #page-manager-edit #wwm-special-2 .top-columns > section,
   #panelizer-edit-content-form #wwm-special-2 .top-columns > section,
   .panels-ipe-editing #wwm-special-2 .top-columns > section,
@@ -34,13 +31,11 @@ html {
     display: block;
     margin-right: 2.3576515979%;
     width: 23.2317613015%; }
-    .page-admin #wwm-special-2 .top-columns > section:last-child,
     #page-manager-edit #wwm-special-2 .top-columns > section:last-child,
     #panelizer-edit-content-form #wwm-special-2 .top-columns > section:last-child,
     .panels-ipe-editing #wwm-special-2 .top-columns > section:last-child,
     #modalContent #wwm-special-2 .top-columns > section:last-child {
       margin-right: 0; }
-.page-admin #wwm-special-2 .bottom-columns,
 #page-manager-edit #wwm-special-2 .bottom-columns,
 #panelizer-edit-content-form #wwm-special-2 .bottom-columns,
 .panels-ipe-editing #wwm-special-2 .bottom-columns,
@@ -49,7 +44,6 @@ html {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  .page-admin #wwm-special-2 .bottom-columns::after,
   #page-manager-edit #wwm-special-2 .bottom-columns::after,
   #panelizer-edit-content-form #wwm-special-2 .bottom-columns::after,
   .panels-ipe-editing #wwm-special-2 .bottom-columns::after,
@@ -57,7 +51,6 @@ html {
     clear: both;
     content: "";
     display: table; }
-  .page-admin #wwm-special-2 .bottom-columns > section,
   #page-manager-edit #wwm-special-2 .bottom-columns > section,
   #panelizer-edit-content-form #wwm-special-2 .bottom-columns > section,
   .panels-ipe-editing #wwm-special-2 .bottom-columns > section,
@@ -66,13 +59,11 @@ html {
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%; }
-    .page-admin #wwm-special-2 .bottom-columns > section:last-child,
     #page-manager-edit #wwm-special-2 .bottom-columns > section:last-child,
     #panelizer-edit-content-form #wwm-special-2 .bottom-columns > section:last-child,
     .panels-ipe-editing #wwm-special-2 .bottom-columns > section:last-child,
     #modalContent #wwm-special-2 .bottom-columns > section:last-child {
       margin-right: 0; }
-.page-admin #wwm-special-2 .footer,
 #page-manager-edit #wwm-special-2 .footer,
 #panelizer-edit-content-form #wwm-special-2 .footer,
 .panels-ipe-editing #wwm-special-2 .footer,
@@ -81,7 +72,6 @@ html {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  .page-admin #wwm-special-2 .footer::after,
   #page-manager-edit #wwm-special-2 .footer::after,
   #panelizer-edit-content-form #wwm-special-2 .footer::after,
   .panels-ipe-editing #wwm-special-2 .footer::after,
