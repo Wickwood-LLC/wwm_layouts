@@ -1,0 +1,37 @@
+/* This SCSS file is managed and compiled with Codekit, 
+ 	so we need to specify where the components are, if there are any. 
+ 	*/
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "bourbon", "neat";
+
+/* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin,
+#page-manager-edit,
+#panelizer-edit-content-form,
+.panels-ipe-editing,
+#modalContent {
+	#wwm-collapse-3 {		
+		.left-column,
+		.middle-column,
+		.right-column {
+			@include span-columns(4);
+		}
+	}
+}
+
+/* These are the rules that set the layout in the real page  */
+#wwm-collapse-3 {
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	align-content: flex-start;
+
+	.left-column,
+	.middle-column,
+	.right-column {
+		flex: 1 1 100%;
+		padding: 0 1%;
+	}
+
+	.empty { display: none; }
+}

@@ -1,0 +1,71 @@
+/* This SCSS file is managed and compiled with Codekit, 
+ 	so we need to specify where the components are, if there are any. 
+ 	*/
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin #wwm-collapse-3 .left-column,
+.page-admin #wwm-collapse-3 .middle-column,
+.page-admin #wwm-collapse-3 .right-column,
+#page-manager-edit #wwm-collapse-3 .left-column,
+#page-manager-edit #wwm-collapse-3 .middle-column,
+#page-manager-edit #wwm-collapse-3 .right-column,
+#panelizer-edit-content-form #wwm-collapse-3 .left-column,
+#panelizer-edit-content-form #wwm-collapse-3 .middle-column,
+#panelizer-edit-content-form #wwm-collapse-3 .right-column,
+.panels-ipe-editing #wwm-collapse-3 .left-column,
+.panels-ipe-editing #wwm-collapse-3 .middle-column,
+.panels-ipe-editing #wwm-collapse-3 .right-column,
+#modalContent #wwm-collapse-3 .left-column,
+#modalContent #wwm-collapse-3 .middle-column,
+#modalContent #wwm-collapse-3 .right-column {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%; }
+  .page-admin #wwm-collapse-3 .left-column:last-child,
+  .page-admin #wwm-collapse-3 .middle-column:last-child,
+  .page-admin #wwm-collapse-3 .right-column:last-child,
+  #page-manager-edit #wwm-collapse-3 .left-column:last-child,
+  #page-manager-edit #wwm-collapse-3 .middle-column:last-child,
+  #page-manager-edit #wwm-collapse-3 .right-column:last-child,
+  #panelizer-edit-content-form #wwm-collapse-3 .left-column:last-child,
+  #panelizer-edit-content-form #wwm-collapse-3 .middle-column:last-child,
+  #panelizer-edit-content-form #wwm-collapse-3 .right-column:last-child,
+  .panels-ipe-editing #wwm-collapse-3 .left-column:last-child,
+  .panels-ipe-editing #wwm-collapse-3 .middle-column:last-child,
+  .panels-ipe-editing #wwm-collapse-3 .right-column:last-child,
+  #modalContent #wwm-collapse-3 .left-column:last-child,
+  #modalContent #wwm-collapse-3 .middle-column:last-child,
+  #modalContent #wwm-collapse-3 .right-column:last-child {
+    margin-right: 0; }
+
+/* These are the rules that set the layout in the real page  */
+#wwm-collapse-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start; }
+  #wwm-collapse-3 .left-column,
+  #wwm-collapse-3 .middle-column,
+  #wwm-collapse-3 .right-column {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    padding: 0 1%; }
+  #wwm-collapse-3 .empty {
+    display: none; }
+
+/*# sourceMappingURL=wwm_collapse_3.css.map */

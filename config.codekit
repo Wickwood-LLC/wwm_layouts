@@ -600,6 +600,51 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/layouts\/wwm_collpase_3\/wwm-collapse-3.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_collpase_3\/wwm-collapse-3.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2783,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.png",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.scss",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_collpase_3\/wwm_collapse_3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/plugins\/layouts\/wwm_special_1\/wwm-special-1.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
