@@ -5,11 +5,11 @@
  */
 // Plugin definition
 $plugin = array(
-  'title' => t('WWM Collpase-3'),
+  'title' => t('WWM Collapse-3'),
   'category' => t('WWM'),
-  'icon' => 'wwm_collpase_3.png',
-  'theme' => 'wwm_collpase_3',
-  'css' => 'wwm_collpase_3.css',
+  'icon' => 'wwm_collapse_3.png',
+  'theme' => 'wwm_collapse_3',
+  'css' => 'wwm_collapse_3.css',
   'regions' => array(
     'left' => t('Left'),
     'middle' => t('Middle'),

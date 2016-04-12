@@ -21,7 +21,7 @@
  */
 ?>
 
-<section id="wwm-collpase-3">
+<section id="wwm-collapse-3">
   <aside class="left-column <?php if (!($renderer->prepared['regions']['left']['pids'])) {print "empty";}?>">
     <?php print $content['left']; ?>
   </aside>
