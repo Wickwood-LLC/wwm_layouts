@@ -10,7 +10,9 @@
 #panelizer-edit-content-form,
 .panels-ipe-editing,
 #modalContent {
-	#wwm-collapse-3 {		
+	#wwm-collapse-3 {	
+		@include outer-container;
+		
 		.left-column,
 		.middle-column,
 		.right-column {
