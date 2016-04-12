@@ -13,18 +13,7 @@ html {
 #panelizer-edit-content-form #wwm-collapse-3,
 .panels-ipe-editing #wwm-collapse-3,
 #modalContent #wwm-collapse-3 {
-  display: block;
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .page-admin #wwm-collapse-3::after,
-  #page-manager-edit #wwm-collapse-3::after,
-  #panelizer-edit-content-form #wwm-collapse-3::after,
-  .panels-ipe-editing #wwm-collapse-3::after,
-  #modalContent #wwm-collapse-3::after {
-    clear: both;
-    content: "";
-    display: table; }
+  display: block; }
   .page-admin #wwm-collapse-3 .left-column,
   .page-admin #wwm-collapse-3 .middle-column,
   .page-admin #wwm-collapse-3 .right-column,
