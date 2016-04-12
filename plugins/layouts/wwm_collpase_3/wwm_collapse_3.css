@@ -13,7 +13,8 @@ html {
 #panelizer-edit-content-form #wwm-collapse-3,
 .panels-ipe-editing #wwm-collapse-3,
 #modalContent #wwm-collapse-3 {
-  display: block; }
+  display: block;
+  overflow: hidden; }
   .page-admin #wwm-collapse-3 .left-column,
   .page-admin #wwm-collapse-3 .middle-column,
   .page-admin #wwm-collapse-3 .right-column,
@@ -29,7 +30,6 @@ html {
   #modalContent #wwm-collapse-3 .left-column,
   #modalContent #wwm-collapse-3 .middle-column,
   #modalContent #wwm-collapse-3 .right-column {
-    display: block;
     float: left;
     display: block;
     margin-right: 2.3576515979%;
