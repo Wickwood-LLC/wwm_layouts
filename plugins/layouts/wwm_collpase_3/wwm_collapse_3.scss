@@ -31,8 +31,11 @@
 	.left-column,
 	.middle-column,
 	.right-column {
-		flex: 1 1 100%;
+		flex: 1 1 calc(100% / 3);
 		padding: 0 1%;
+	}
+	.middle-column {
+		flex: 2 1 calc(100% / 3);
 	}
 
 	.empty { display: none; }

@@ -8,16 +8,12 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin #wwm-collapse-3,
 #page-manager-edit #wwm-collapse-3,
 #panelizer-edit-content-form #wwm-collapse-3,
 .panels-ipe-editing #wwm-collapse-3,
 #modalContent #wwm-collapse-3 {
   display: block;
   overflow: hidden; }
-  .page-admin #wwm-collapse-3 .left-column,
-  .page-admin #wwm-collapse-3 .middle-column,
-  .page-admin #wwm-collapse-3 .right-column,
   #page-manager-edit #wwm-collapse-3 .left-column,
   #page-manager-edit #wwm-collapse-3 .middle-column,
   #page-manager-edit #wwm-collapse-3 .right-column,
@@ -34,9 +30,6 @@ html {
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%; }
-    .page-admin #wwm-collapse-3 .left-column:last-child,
-    .page-admin #wwm-collapse-3 .middle-column:last-child,
-    .page-admin #wwm-collapse-3 .right-column:last-child,
     #page-manager-edit #wwm-collapse-3 .left-column:last-child,
     #page-manager-edit #wwm-collapse-3 .middle-column:last-child,
     #page-manager-edit #wwm-collapse-3 .right-column:last-child,
@@ -68,10 +61,15 @@ html {
   #wwm-collapse-3 .middle-column,
   #wwm-collapse-3 .right-column {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 100%;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
+    -webkit-flex: 1 1 calc(100% / 3);
+        -ms-flex: 1 1 calc(100% / 3);
+            flex: 1 1 calc(100% / 3);
     padding: 0 1%; }
+  #wwm-collapse-3 .middle-column {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2 1 calc(100% / 3);
+        -ms-flex: 2 1 calc(100% / 3);
+            flex: 2 1 calc(100% / 3); }
   #wwm-collapse-3 .empty {
     display: none; }
 
