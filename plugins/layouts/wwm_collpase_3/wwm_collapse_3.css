@@ -60,10 +60,10 @@ html {
   #wwm-collapse-3 .left-column,
   #wwm-collapse-3 .middle-column,
   #wwm-collapse-3 .right-column {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 calc(100% / 3);
-        -ms-flex: 1 1 calc(100% / 3);
-            flex: 1 1 calc(100% / 3);
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 calc(100% / 3);
+        -ms-flex: 0 1 calc(100% / 3);
+            flex: 0 1 calc(100% / 3);
     padding: 0 1%; }
   #wwm-collapse-3 .middle-column {
     -webkit-box-flex: 2;
