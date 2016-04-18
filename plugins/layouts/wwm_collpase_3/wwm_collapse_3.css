@@ -57,6 +57,13 @@ html {
     .overlay #wwm-collapse-3 .middle-column:last-child,
     .overlay #wwm-collapse-3 .right-column:last-child {
       margin-right: 0; }
+  .page-admin
+  #page-manager-edit #wwm-collapse-3 .empty,
+  #panelizer-edit-content-form #wwm-collapse-3 .empty,
+  .panels-ipe-editing #wwm-collapse-3 .empty,
+  #modalContent #wwm-collapse-3 .empty,
+  .overlay #wwm-collapse-3 .empty {
+    display: block; }
 
 /* These are the rules that set the layout in the real page  */
 #wwm-collapse-3 {
