@@ -8,6 +8,7 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.page-admin
 #page-manager-edit #wwm-collapse-3,
 #panelizer-edit-content-form #wwm-collapse-3,
 .panels-ipe-editing #wwm-collapse-3,
@@ -15,8 +16,11 @@ html {
 .overlay #wwm-collapse-3 {
   display: block;
   overflow: hidden; }
+  .page-admin
   #page-manager-edit #wwm-collapse-3 .left-column,
+  .page-admin
   #page-manager-edit #wwm-collapse-3 .middle-column,
+  .page-admin
   #page-manager-edit #wwm-collapse-3 .right-column,
   #panelizer-edit-content-form #wwm-collapse-3 .left-column,
   #panelizer-edit-content-form #wwm-collapse-3 .middle-column,
@@ -34,8 +38,11 @@ html {
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%; }
+    .page-admin
     #page-manager-edit #wwm-collapse-3 .left-column:last-child,
+    .page-admin
     #page-manager-edit #wwm-collapse-3 .middle-column:last-child,
+    .page-admin
     #page-manager-edit #wwm-collapse-3 .right-column:last-child,
     #panelizer-edit-content-form #wwm-collapse-3 .left-column:last-child,
     #panelizer-edit-content-form #wwm-collapse-3 .middle-column:last-child,
