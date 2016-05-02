@@ -67,6 +67,7 @@
 		@include breakpoint(900px) {
 			.bottom-1, .bottom-2, .bottom-3 {
 				flex: 1 calc(100% / 3);
+				flex-basis: calc(100% / 3);		// for browsers that can't understand the above code (like IE)
 			}
 		}
 	}

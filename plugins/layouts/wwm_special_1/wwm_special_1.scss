@@ -93,6 +93,7 @@
 	@include breakpoint(768px) {
 		.sidebar {
 			flex: 1 1 calc((100% / 3) - 1em);
+			flex-basis: calc((100% / 3) - 1em);		// for browsers that can't understand the above code (like IE)
 			margin-right: 1em;
 		}
 		.content-area {
@@ -105,6 +106,7 @@
 		.content-left,
 		.content-right {
 			flex: 1 1 calc(50% - 0.5em);
+			flex-basis: calc(50% - 0.5em);		// for browsers that can't understand the above code (like IE)
 		}
 		.content-left {
 			margin-right: 0.5em;
@@ -118,6 +120,7 @@
 		.sub-footer-right,
 		.sub-footer-left {
 			flex: 1 1 calc((100% / 3) - 0.5em);
+			flex-basis: calc((100% / 3) - 0.5em);		// for browsers that can't understand the above code (like IE)
 		}
 		.sub-footer-left {
 			margin-right: 0.5em;
@@ -127,6 +130,7 @@
 		}
 		.sub-footer-mid {
 			flex: 1 1 calc((100% / 3) - 1em);
+			flex-basis: calc((100% / 3) - 1em);		// for browsers that can't understand the above code (like IE)
 			margin: 0 0.5em;
 		}
 	}
