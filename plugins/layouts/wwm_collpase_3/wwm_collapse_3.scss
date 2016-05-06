@@ -29,7 +29,7 @@
 #wwm-collapse-3 {
 	display: flex;
 	width: 100%;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	align-content: flex-start;
 
 	.left-column,
