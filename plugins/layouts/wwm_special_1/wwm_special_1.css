@@ -217,10 +217,13 @@ html {
             flex-basis: calc((100% / 3) - 1em);
     margin-right: 1em; }
   #wwm-special-1 .content-area {
-    -webkit-box-flex: calc((100% / 3) * 2);
-    -webkit-flex: calc((100% / 3) * 2);
-        -ms-flex: calc((100% / 3) * 2);
-            flex: calc((100% / 3) * 2);
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 calc((100% / 3) * 2);
+        -ms-flex: 1 1 calc((100% / 3) * 2);
+            flex: 1 1 calc((100% / 3) * 2);
+    -webkit-flex-basis: calc((100% / 3) * 2);
+        -ms-flex-preferred-size: calc((100% / 3) * 2);
+            flex-basis: calc((100% / 3) * 2);
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; } }
