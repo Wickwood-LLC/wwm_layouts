@@ -33,15 +33,12 @@
 	align-content: flex-start;
 
 	.left-column,
-	.middle-column,
 	.right-column {
-		flex: 0 1 calc(100% / 3);
-		flex-basis: calc(100% / 3); 	// for browsers that can't understand the above code (like IE)
+		flex: 0.5 1 12.5%;
 		padding: 0 1%;
 	}
 	.middle-column {
-		flex: 2 1 calc(100% / 3);
-		flex-basis: calc(100% / 3); 	// for browsers that can't understand the above code (like IE)
+		flex: 3 1 75%;
 	}
 
 	.empty { display: none; }
