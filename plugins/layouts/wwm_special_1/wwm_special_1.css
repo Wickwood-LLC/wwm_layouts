@@ -170,8 +170,7 @@ html {
 /* These are the rules that set the layout in the real page  */
 #wwm-special-1 .main,
 #wwm-special-1 .content-area,
-#wwm-special-1 .sub-footer,
-#wwm-special-1 .footer {
+#wwm-special-1 .sub-footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
