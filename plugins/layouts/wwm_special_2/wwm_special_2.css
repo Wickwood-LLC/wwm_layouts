@@ -8,84 +8,54 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin #wwm-special-2 .top-columns,
-#page-manager-edit #wwm-special-2 .top-columns,
-#panelizer-edit-content-form #wwm-special-2 .top-columns,
-.panels-ipe-editing #wwm-special-2 .top-columns,
-#modalContent #wwm-special-2 .top-columns {
+.panels-dnd #wwm-special-2 .top-columns,
+.panels-ipe-editing #wwm-special-2 .top-columns {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  .page-admin #wwm-special-2 .top-columns::after,
-  #page-manager-edit #wwm-special-2 .top-columns::after,
-  #panelizer-edit-content-form #wwm-special-2 .top-columns::after,
-  .panels-ipe-editing #wwm-special-2 .top-columns::after,
-  #modalContent #wwm-special-2 .top-columns::after {
+  .panels-dnd #wwm-special-2 .top-columns::after,
+  .panels-ipe-editing #wwm-special-2 .top-columns::after {
     clear: both;
     content: "";
     display: table; }
-  .page-admin #wwm-special-2 .top-columns > section,
-  #page-manager-edit #wwm-special-2 .top-columns > section,
-  #panelizer-edit-content-form #wwm-special-2 .top-columns > section,
-  .panels-ipe-editing #wwm-special-2 .top-columns > section,
-  #modalContent #wwm-special-2 .top-columns > section {
+  .panels-dnd #wwm-special-2 .top-columns > section,
+  .panels-ipe-editing #wwm-special-2 .top-columns > section {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 23.2317613015%; }
-    .page-admin #wwm-special-2 .top-columns > section:last-child,
-    #page-manager-edit #wwm-special-2 .top-columns > section:last-child,
-    #panelizer-edit-content-form #wwm-special-2 .top-columns > section:last-child,
-    .panels-ipe-editing #wwm-special-2 .top-columns > section:last-child,
-    #modalContent #wwm-special-2 .top-columns > section:last-child {
+    .panels-dnd #wwm-special-2 .top-columns > section:last-child,
+    .panels-ipe-editing #wwm-special-2 .top-columns > section:last-child {
       margin-right: 0; }
-.page-admin #wwm-special-2 .bottom-columns,
-#page-manager-edit #wwm-special-2 .bottom-columns,
-#panelizer-edit-content-form #wwm-special-2 .bottom-columns,
-.panels-ipe-editing #wwm-special-2 .bottom-columns,
-#modalContent #wwm-special-2 .bottom-columns {
+.panels-dnd #wwm-special-2 .bottom-columns,
+.panels-ipe-editing #wwm-special-2 .bottom-columns {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  .page-admin #wwm-special-2 .bottom-columns::after,
-  #page-manager-edit #wwm-special-2 .bottom-columns::after,
-  #panelizer-edit-content-form #wwm-special-2 .bottom-columns::after,
-  .panels-ipe-editing #wwm-special-2 .bottom-columns::after,
-  #modalContent #wwm-special-2 .bottom-columns::after {
+  .panels-dnd #wwm-special-2 .bottom-columns::after,
+  .panels-ipe-editing #wwm-special-2 .bottom-columns::after {
     clear: both;
     content: "";
     display: table; }
-  .page-admin #wwm-special-2 .bottom-columns > section,
-  #page-manager-edit #wwm-special-2 .bottom-columns > section,
-  #panelizer-edit-content-form #wwm-special-2 .bottom-columns > section,
-  .panels-ipe-editing #wwm-special-2 .bottom-columns > section,
-  #modalContent #wwm-special-2 .bottom-columns > section {
+  .panels-dnd #wwm-special-2 .bottom-columns > section,
+  .panels-ipe-editing #wwm-special-2 .bottom-columns > section {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%; }
-    .page-admin #wwm-special-2 .bottom-columns > section:last-child,
-    #page-manager-edit #wwm-special-2 .bottom-columns > section:last-child,
-    #panelizer-edit-content-form #wwm-special-2 .bottom-columns > section:last-child,
-    .panels-ipe-editing #wwm-special-2 .bottom-columns > section:last-child,
-    #modalContent #wwm-special-2 .bottom-columns > section:last-child {
+    .panels-dnd #wwm-special-2 .bottom-columns > section:last-child,
+    .panels-ipe-editing #wwm-special-2 .bottom-columns > section:last-child {
       margin-right: 0; }
-.page-admin #wwm-special-2 .footer,
-#page-manager-edit #wwm-special-2 .footer,
-#panelizer-edit-content-form #wwm-special-2 .footer,
-.panels-ipe-editing #wwm-special-2 .footer,
-#modalContent #wwm-special-2 .footer {
+.panels-dnd #wwm-special-2 .footer,
+.panels-ipe-editing #wwm-special-2 .footer {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  .page-admin #wwm-special-2 .footer::after,
-  #page-manager-edit #wwm-special-2 .footer::after,
-  #panelizer-edit-content-form #wwm-special-2 .footer::after,
-  .panels-ipe-editing #wwm-special-2 .footer::after,
-  #modalContent #wwm-special-2 .footer::after {
+  .panels-dnd #wwm-special-2 .footer::after,
+  .panels-ipe-editing #wwm-special-2 .footer::after {
     clear: both;
     content: "";
     display: table; }

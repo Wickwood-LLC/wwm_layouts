@@ -4,10 +4,8 @@
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin,
-#page-manager-edit,
-#panelizer-edit-content-form,
-.panels-ipe-editing {
+.panels-dnd,
+.panels-ipe-editing  {
 	.panel-wwm-3col-stacked.no-sidebar,
 	.panel-wwm-3col-stacked.has-one-sidebar,
 	.panel-wwm-3col-stacked.has-two-sidebars,
