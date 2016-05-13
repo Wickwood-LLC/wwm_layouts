@@ -8,61 +8,29 @@ html {
   box-sizing: inherit; }
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin #wwm-collapse-3,
-#page-manager-edit #wwm-collapse-3,
-#panelizer-edit-content-form #wwm-collapse-3,
-.panels-ipe-editing #wwm-collapse-3,
-#modalContent #wwm-collapse-3,
-.overlay #wwm-collapse-3 {
+.panels-dnd #wwm-collapse-3,
+.panels-ipe-editing #wwm-collapse-3 {
   display: block;
   overflow: hidden; }
-  .page-admin #wwm-collapse-3 .left-column,
-  .page-admin #wwm-collapse-3 .middle-column,
-  .page-admin #wwm-collapse-3 .right-column,
-  #page-manager-edit #wwm-collapse-3 .left-column,
-  #page-manager-edit #wwm-collapse-3 .middle-column,
-  #page-manager-edit #wwm-collapse-3 .right-column,
-  #panelizer-edit-content-form #wwm-collapse-3 .left-column,
-  #panelizer-edit-content-form #wwm-collapse-3 .middle-column,
-  #panelizer-edit-content-form #wwm-collapse-3 .right-column,
+  .panels-dnd #wwm-collapse-3 .left-column,
+  .panels-dnd #wwm-collapse-3 .middle-column,
+  .panels-dnd #wwm-collapse-3 .right-column,
   .panels-ipe-editing #wwm-collapse-3 .left-column,
   .panels-ipe-editing #wwm-collapse-3 .middle-column,
-  .panels-ipe-editing #wwm-collapse-3 .right-column,
-  #modalContent #wwm-collapse-3 .left-column,
-  #modalContent #wwm-collapse-3 .middle-column,
-  #modalContent #wwm-collapse-3 .right-column,
-  .overlay #wwm-collapse-3 .left-column,
-  .overlay #wwm-collapse-3 .middle-column,
-  .overlay #wwm-collapse-3 .right-column {
+  .panels-ipe-editing #wwm-collapse-3 .right-column {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%; }
-    .page-admin #wwm-collapse-3 .left-column:last-child,
-    .page-admin #wwm-collapse-3 .middle-column:last-child,
-    .page-admin #wwm-collapse-3 .right-column:last-child,
-    #page-manager-edit #wwm-collapse-3 .left-column:last-child,
-    #page-manager-edit #wwm-collapse-3 .middle-column:last-child,
-    #page-manager-edit #wwm-collapse-3 .right-column:last-child,
-    #panelizer-edit-content-form #wwm-collapse-3 .left-column:last-child,
-    #panelizer-edit-content-form #wwm-collapse-3 .middle-column:last-child,
-    #panelizer-edit-content-form #wwm-collapse-3 .right-column:last-child,
+    .panels-dnd #wwm-collapse-3 .left-column:last-child,
+    .panels-dnd #wwm-collapse-3 .middle-column:last-child,
+    .panels-dnd #wwm-collapse-3 .right-column:last-child,
     .panels-ipe-editing #wwm-collapse-3 .left-column:last-child,
     .panels-ipe-editing #wwm-collapse-3 .middle-column:last-child,
-    .panels-ipe-editing #wwm-collapse-3 .right-column:last-child,
-    #modalContent #wwm-collapse-3 .left-column:last-child,
-    #modalContent #wwm-collapse-3 .middle-column:last-child,
-    #modalContent #wwm-collapse-3 .right-column:last-child,
-    .overlay #wwm-collapse-3 .left-column:last-child,
-    .overlay #wwm-collapse-3 .middle-column:last-child,
-    .overlay #wwm-collapse-3 .right-column:last-child {
+    .panels-ipe-editing #wwm-collapse-3 .right-column:last-child {
       margin-right: 0; }
-  .page-admin #wwm-collapse-3 .empty,
-  #page-manager-edit #wwm-collapse-3 .empty,
-  #panelizer-edit-content-form #wwm-collapse-3 .empty,
-  .panels-ipe-editing #wwm-collapse-3 .empty,
-  #modalContent #wwm-collapse-3 .empty,
-  .overlay #wwm-collapse-3 .empty {
+  .panels-dnd #wwm-collapse-3 .empty,
+  .panels-ipe-editing #wwm-collapse-3 .empty {
     display: block; }
 
 /* These are the rules that set the layout in the real page  */

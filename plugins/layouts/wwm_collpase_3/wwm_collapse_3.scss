@@ -5,12 +5,8 @@
 @import "bourbon", "neat";
 
 /* These are the rules that maintain the original layout in customize mode and in admin pages*/
-.page-admin,
-#page-manager-edit,
-#panelizer-edit-content-form,
-.panels-ipe-editing,
-#modalContent,
-.overlay {
+.panels-dnd,
+.panels-ipe-editing {
 	#wwm-collapse-3 {
 		display: block;
 		overflow: hidden;
