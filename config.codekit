@@ -645,6 +645,26 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/plugins\/layouts\/wwm_sanderson\/wwm-sanderson.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_sanderson\/wwm-sanderson.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3068,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.png",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/layouts\/wwm_special_1\/wwm-special-1.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
