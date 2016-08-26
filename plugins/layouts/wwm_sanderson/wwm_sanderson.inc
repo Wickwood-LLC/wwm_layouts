@@ -1,7 +1,7 @@
 <?php
 // Plugin definition
 $plugin = array(
-  'title' => t('Sanderson'),
+  'title' => t('WWM Sanderson'),
   'icon' => 'wwm_sanderson.png',
   'category' => t('WWM'),
   'theme' => 'wwm_sanderson',
