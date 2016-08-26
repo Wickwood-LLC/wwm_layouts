@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Sanderson'),
   'icon' => 'wwm_sanderson.png',
-  'category' => t('Radix'),
+  'category' => t('WWM'),
   'theme' => 'wwm_sanderson',
   'regions' => array(
     'column1' => t('Row 1: First Column'),
