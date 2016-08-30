@@ -1,0 +1,18 @@
+/* This SCSS file is managed and compiled with Codekit, 
+ 	so we need to specify where the components are, if there are any. 
+ 	*/
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* These are the rules that maintain the original layout in customize mode and in admin pages*/
+.panels-dnd .wwm-sanderson .row.empty,
+.panels-ipe-editing .wwm-sanderson .row.empty {
+  display: block; }
+
+.wwm-sanderson .row.empty {
+  display: none; }
+
+/*# sourceMappingURL=wwm_sanderson.css.map */

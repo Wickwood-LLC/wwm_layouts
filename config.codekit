@@ -582,24 +582,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/plugins\/layouts\/css\/wwm_special_1.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/layouts\/css\/wwm_special_1.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/layouts\/css\/wwm_special_2.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/layouts\/css\/wwm_special_2.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/layouts\/wwm_collpase_3\/wwm-collapse-3.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -654,6 +636,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -664,6 +655,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.scss",
+		"outputAbbreviatedPath": "\/plugins\/layouts\/wwm_sanderson\/wwm_sanderson.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/plugins\/layouts\/wwm_special_1\/wwm-special-1.tpl.php": {
 		"fileType": 8192,

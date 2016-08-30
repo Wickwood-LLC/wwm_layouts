@@ -44,22 +44,18 @@
       </div>
     </div>
 
-    <?php if ($third_row): ?>
-      <div class="row">
-        <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
-          <div class="panel-panel-inner"> 
-    <?php endif; ?>
-            <?php print $content['bottomcolumn1']; ?>
-    <?php if ($third_row): ?> </div>
-        </div>
-        <div class="col-md-6 radix-layouts-bottomcolumn2 panel-panel">
-          <div class="panel-panel-inner"> 
-    <?php endif; ?>
-            <?php print $content['bottomcolumn2']; ?>
-    <?php if ($third_row): ?> </div>
+    <div class="row <?php if ($third_row) {print " empty";}?>">
+      <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['bottomcolumn1']; ?>
         </div>
       </div>
-    <?php endif; ?>
+      <div class="col-md-6 radix-layouts-bottomcolumn2 panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['bottomcolumn2']; ?>
+        </div>
+      </div>
+    </div>
 
   </div>
   
