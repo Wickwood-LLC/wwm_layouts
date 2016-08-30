@@ -47,14 +47,16 @@
     <?php if ($third_row): ?>
       <div class="row">
         <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
-          <div class="panel-panel-inner">
+          <div class="panel-panel-inner"> 
+    <?php endif; ?>
             <?php print $content['bottomcolumn1']; ?>
-          </div>
+    <?php if ($third_row): ?> </div>
         </div>
         <div class="col-md-6 radix-layouts-bottomcolumn2 panel-panel">
-          <div class="panel-panel-inner">
+          <div class="panel-panel-inner"> 
+    <?php endif; ?>
             <?php print $content['bottomcolumn2']; ?>
-          </div>
+    <?php if ($third_row): ?> </div>
         </div>
       </div>
     <?php endif; ?>
