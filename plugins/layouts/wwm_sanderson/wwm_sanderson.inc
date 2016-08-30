@@ -11,5 +11,7 @@ $plugin = array(
     'secondarycolumn1' => t('Row 2: First Column'),
     'secondarycolumn2' => t('Row 2: Second Column'),
     'secondarycolumn3' => t('Row 2: Third Column'),
+    'bottomcolumn1' => t('Row 3: First Column'),
+    'bottomcolumn2' => t('Row 3: Second Column'),
   ),
 );

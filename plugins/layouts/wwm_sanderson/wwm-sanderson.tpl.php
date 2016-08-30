@@ -13,7 +13,7 @@
 <div class="panel-display sanderson clearfix <?php if (!empty($classes)) { print $classes; } ?><?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
   <div class="container-fluid">
-    <div class="row"><div class="row-inner">
+    <div class="row">
       <div class="col-md-6 radix-layouts-column1 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['column1']; ?>
@@ -24,9 +24,9 @@
           <?php print $content['column2']; ?>
         </div>
       </div>
-    </div></div>
+    </div>
     
-    <div class="row"><div class="row-inner">
+    <div class="row">
       <div class="col-md-4 radix-layouts-secondarycolumn1 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['secondarycolumn1']; ?>
@@ -42,7 +42,20 @@
           <?php print $content['secondarycolumn3']; ?>
         </div>
       </div>
-    </div></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
+      <div class="panel-panel-inner">
+        <?php print $content['bottomcolumn1']; ?>
+      </div>
+    </div>
+    <div class="col-md-6 radix-layouts-bottomcolumn2 panel-panel">
+      <div class="panel-panel-inner">
+        <?php print $content['bottomcolumn2']; ?>
+      </div>
+    </div>
   </div>
   
 </div><!-- /.sanderson -->
