@@ -15,3 +15,21 @@ $plugin = array(
     'bottomcolumn2' => t('Row 3: Second Column'),
   ),
 );
+
+/**
+ * Prepares variables for wwm_sanderson templates.
+ *
+ * Default template: wwm-sanderson.tpl.php.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - $content: An array of content, each item in the array is keyed to one
+ *     panel of the layout.
+ */
+function template_preprocess_wwm_sanderson(&$variables) {
+  $variables['third_row'] = FALSE;
+
+  if ($variables['content']['bottomcolumn1'] || $variables['content']['bottomcolumn2']) {
+    $variables['third_row'] = TRUE;
+  }
+}
