@@ -5,6 +5,7 @@ $plugin = array(
   'icon' => 'wwm_sanderson.png',
   'category' => t('WWM'),
   'theme' => 'wwm_sanderson',
+  'css' => 'wwm_sanderson.css',
   'regions' => array(
     'column1' => t('Row 1: First Column'),
     'column2' => t('Row 1: Second Column'),
