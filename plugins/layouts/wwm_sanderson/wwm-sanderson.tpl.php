@@ -43,19 +43,20 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['bottomcolumn1']; ?>
+    <div class="row">
+      <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['bottomcolumn1']; ?>
+        </div>
+      </div>
+      <div class="col-md-6 radix-layouts-bottomcolumn2 panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['bottomcolumn2']; ?>
+        </div>
       </div>
     </div>
-    <div class="col-md-6 radix-layouts-bottomcolumn2 panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['bottomcolumn2']; ?>
-      </div>
-    </div>
+    
   </div>
   
 </div><!-- /.sanderson -->
