@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="row <?php if ($third_row) {print "empty";}?>">
+    <div class="row <?php if (!($third_row)) {print "empty";}?>">
       <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['bottomcolumn1']; ?>
