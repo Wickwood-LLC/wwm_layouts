@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="row <?php if ($third_row == FALSE) {print "empty";}?>">
+    <div class="row <?php if (!($renderer->prepared['regions']['bottomcolumn1']['pids']) || !($renderer->prepared['regions']['bottomcolumn2']['pids'])) {print "empty";}?>">
       <div class="col-md-6 radix-layouts-bottomcolumn1 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['bottomcolumn1']; ?>
