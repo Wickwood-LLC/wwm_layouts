@@ -59,7 +59,6 @@
 		@include breakpoint(1250px) {	
 			.top-1,	.top-2,	.top-3,	.top-4 {
 				flex: 1 25%;
-				max-width: 25%;
 			}
 		}
 

@@ -100,8 +100,7 @@ html {
     #wwm-special-2 .bottom-columns .top-4 {
       -webkit-box-flex: 1;
           -ms-flex: 1 25%;
-              flex: 1 25%;
-      max-width: 25%; } }
+              flex: 1 25%; } }
   @media screen and (min-width: 900px) {
     #wwm-special-2 .top-columns .bottom-1, #wwm-special-2 .top-columns .bottom-2, #wwm-special-2 .top-columns .bottom-3,
     #wwm-special-2 .bottom-columns .bottom-1,
