@@ -52,6 +52,7 @@
 		@include breakpoint(450px) {
 			.top-1,	.top-2,	.top-3,	.top-4 {
 				flex: 1 50%;
+				max-width: 50%;
 			}
 		}
 

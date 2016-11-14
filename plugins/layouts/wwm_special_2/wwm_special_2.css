@@ -18,16 +18,17 @@ html {
   .panels-ipe-editing #wwm-special-2 .top-columns::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   .panels-dnd #wwm-special-2 .top-columns > section,
   .panels-ipe-editing #wwm-special-2 .top-columns > section {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
+    margin-right: 2.3576520234%;
+    width: 23.2317609825%; }
     .panels-dnd #wwm-special-2 .top-columns > section:last-child,
     .panels-ipe-editing #wwm-special-2 .top-columns > section:last-child {
       margin-right: 0; }
+
 .panels-dnd #wwm-special-2 .bottom-columns,
 .panels-ipe-editing #wwm-special-2 .bottom-columns {
   display: block;
@@ -38,16 +39,17 @@ html {
   .panels-ipe-editing #wwm-special-2 .bottom-columns::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   .panels-dnd #wwm-special-2 .bottom-columns > section,
   .panels-ipe-editing #wwm-special-2 .bottom-columns > section {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%; }
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%; }
     .panels-dnd #wwm-special-2 .bottom-columns > section:last-child,
     .panels-ipe-editing #wwm-special-2 .bottom-columns > section:last-child {
       margin-right: 0; }
+
 .panels-dnd #wwm-special-2 .footer,
 .panels-ipe-editing #wwm-special-2 .footer {
   display: block;
@@ -58,11 +60,12 @@ html {
   .panels-ipe-editing #wwm-special-2 .footer::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 /* These are the rules that set the layout in the real page  */
 #wwm-special-2 .empty {
   display: none; }
+
 #wwm-special-2 .top-columns,
 #wwm-special-2 .bottom-columns {
   display: -webkit-box;
@@ -87,7 +90,8 @@ html {
     #wwm-special-2 .bottom-columns .top-4 {
       -webkit-box-flex: 1;
           -ms-flex: 1 50%;
-              flex: 1 50%; } }
+              flex: 1 50%;
+      max-width: 50%; } }
   @media screen and (min-width: 1250px) {
     #wwm-special-2 .top-columns .top-1, #wwm-special-2 .top-columns .top-2, #wwm-special-2 .top-columns .top-3, #wwm-special-2 .top-columns .top-4,
     #wwm-special-2 .bottom-columns .top-1,
@@ -108,5 +112,4 @@ html {
               flex: 1 calc(100% / 3);
       -ms-flex-preferred-size: calc(100% / 3);
           flex-basis: calc(100% / 3); } }
-
 /*# sourceMappingURL=wwm_special_2.css.map */
