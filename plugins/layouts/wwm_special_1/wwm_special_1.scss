@@ -92,11 +92,13 @@
 			flex: 1 1 calc((100% / 3) - 1em);
 			flex-basis: calc((100% / 3) - 1em);		// for browsers that can't understand the above code (like IE)
 			margin-right: 1em;
+			max-width: calc((100% / 3) - 1em);
 		}
 		.content-area {
 			flex: 1 1 calc((100% / 3) * 2);
 			flex-basis: calc((100% / 3) * 2);		// for browsers that can't understand the above code (like IE)
 			flex-flow: row wrap;
+			max-width: calc((100% / 3) * 2);
 		}
 	}
 
@@ -105,6 +107,7 @@
 		.content-right {
 			flex: 1 1 calc(50% - 0.5em);
 			flex-basis: calc(50% - 0.5em);			// for browsers that can't understand the above code (like IE)
+			max-width: calc(50% - 0.5em);
 		}
 		.content-left {
 			margin-right: 0.5em;
@@ -119,6 +122,7 @@
 		.sub-footer-left {
 			flex: 1 1 calc((100% / 3) - 0.5em);
 			flex-basis: calc((100% / 3) - 0.5em);		// for browsers that can't understand the above code (like IE)
+			max-width: calc((100% / 3) - 0.5em);
 		}
 		.sub-footer-left {
 			margin-right: 0.5em;
@@ -129,6 +133,7 @@
 		.sub-footer-mid {
 			flex: 1 1 calc((100% / 3) - 1em);
 			flex-basis: calc((100% / 3) - 1em);		// for browsers that can't understand the above code (like IE)
+			max-width: calc((100% / 3) - 1em);
 			margin: 0 0.5em;
 		}
 	}
