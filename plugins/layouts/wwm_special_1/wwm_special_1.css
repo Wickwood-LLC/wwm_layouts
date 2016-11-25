@@ -135,7 +135,8 @@ html {
 #wwm-special-1 .content-bottom {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
-          flex: 100%; }
+          flex: 100%;
+  width: 100%; }
 
 #wwm-special-1 .content-left,
 #wwm-special-1 .content-right {
