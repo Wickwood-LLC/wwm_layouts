@@ -162,16 +162,18 @@ html {
     -ms-flex-preferred-size: calc((100% / 3) - 1em);
         flex-basis: calc((100% / 3) - 1em);
     margin-right: 1em;
-    max-width: calc((100% / 3) - 1em); }
+    max-width: calc((100% / 3) - 1em);
+    min-width: 300px; }
   #wwm-special-1 .content-area {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc((100% / 3) * 2);
-            flex: 1 1 calc((100% / 3) * 2);
-    -ms-flex-preferred-size: calc((100% / 3) * 2);
-        flex-basis: calc((100% / 3) * 2);
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0px;
+    -ms-flex-preferred-size: 0px;
+        flex-basis: 0px;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
-    max-width: calc((100% / 3) * 2); } }
+    max-width: calc((100% / 3) * 2);
+    min-width: 0px; } }
 
 @media screen and (min-width: 1024px) {
   #wwm-special-1 .content-left,
