@@ -11,6 +11,7 @@ $plugin = array(
   'theme' => 'wwm_special_2',
   'css' => 'wwm_special_2.css',
   'regions' => array(
+    'header' => t('Header'),
     'top_1' => t('Top 1'),
     'top_2' => t('Top 2'),
     'top_3' => t('Top 3'),

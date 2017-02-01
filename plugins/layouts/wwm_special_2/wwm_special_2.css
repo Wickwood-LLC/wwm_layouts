@@ -50,13 +50,15 @@ html {
     .panels-ipe-editing #wwm-special-2 .bottom-columns > section:last-child {
       margin-right: 0; }
 
-.panels-dnd #wwm-special-2 .footer,
+.panels-dnd #wwm-special-2 .header, .panels-dnd #wwm-special-2 .footer,
+.panels-ipe-editing #wwm-special-2 .header,
 .panels-ipe-editing #wwm-special-2 .footer {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  .panels-dnd #wwm-special-2 .footer::after,
+  .panels-dnd #wwm-special-2 .header::after, .panels-dnd #wwm-special-2 .footer::after,
+  .panels-ipe-editing #wwm-special-2 .header::after,
   .panels-ipe-editing #wwm-special-2 .footer::after {
     clear: both;
     content: "";

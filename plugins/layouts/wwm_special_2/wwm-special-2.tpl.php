@@ -20,6 +20,9 @@
 ?>
 
 <main id="wwm-special-2">
+  <header class="header <?php if (!($renderer->prepared['regions']['header']['pids'])) {print "empty";}?>">
+    <?php print $content['header']; ?>
+  </header>
   <section class="top-columns">
     <section class="top-1 <?php if (!($renderer->prepared['regions']['top_1']['pids'])) {print "empty";}?>">
       <?php print $content['top_1']; ?>
