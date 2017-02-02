@@ -3616,7 +3616,7 @@
 		"oA": 0,
 		"oAP": "\/plugins\/layouts\/wwm_special_2\/wwm_special_2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/plugins\/layouts\/wwm_special_2\/wwm_special_2.scss": {
 		"aP": 1,
